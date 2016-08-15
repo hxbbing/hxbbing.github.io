@@ -11,16 +11,34 @@
     
 
     
-    <meta name="description" content="记录生活点滴">
+    <meta name="description" content="搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：
+
+
+首先你需要有一个GitHub账号我的账号
+域名的申请（这里以申请万网域名为例）我的域名
+安装hexo已安装好git和node.js
+hexo是基于node.js的静态博客，官网也是搭建在GitHub上在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”npm install he">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建博客">
 <meta property="og:url" content="http://hxbbing.github.io/2016/08/15/搭建博客/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="记录生活点滴">
-<meta property="og:updated_time" content="2016-08-15T01:55:43.064Z">
+<meta property="og:description" content="搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：
+
+
+首先你需要有一个GitHub账号我的账号
+域名的申请（这里以申请万网域名为例）我的域名
+安装hexo已安装好git和node.js
+hexo是基于node.js的静态博客，官网也是搭建在GitHub上在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”npm install he">
+<meta property="og:updated_time" content="2016-08-15T08:38:24.262Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建博客">
-<meta name="twitter:description" content="记录生活点滴">
+<meta name="twitter:description" content="搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：
+
+
+首先你需要有一个GitHub账号我的账号
+域名的申请（这里以申请万网域名为例）我的域名
+安装hexo已安装好git和node.js
+hexo是基于node.js的静态博客，官网也是搭建在GitHub上在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”npm install he">
 
     
     <link rel="alternative" href="/atom.xml" title="我的博客" type="application/atom+xml">
@@ -100,7 +118,44 @@
 		
 		</div>
 		
-		  
+		<p>搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：</p>
+<hr>
+<ol>
+<li>首先你需要有一个GitHub账号<br><a href="https://github.com/hxbbing/hxbbing.github.io" target="_blank" rel="external">我的账号</a></li>
+<li>域名的申请（这里以申请万网域名为例）<br><a href="xiangbing.me">我的域名</a></li>
+<li><p>安装hexo<br>已安装好git和node.js</p>
+<p>hexo是基于node.js的静态博客，官网也是搭建在GitHub上<br>在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”<br>npm install hexo-cli -g<br>npm install hexo –save<br>安装完成后，在输入命令，验证是否安装正确<br>$ hexo -v</p>
+<p>本地运行hexo</p>
+<p>$ hexo init</p>
+<p>$ npm install</p>
+<p>运行hexo,以后要在本地运行博客只要输入该命令即可<br>$ hexo s</p>
+<p>打开浏览器，输入localhost:4000,就可以在本地看到你的个人博客了并且此时已生成db.json<br>$ hexo clean 删除db.json里面的内容</p>
+</li>
+</ol>
+<ol>
+<li><p>管理博客<br>使用Sublime_Text编辑器（绿色软件无需安装，解压即可使用）打开blog/_config.yml文件，进行配置</p>
+</li>
+<li><p>发布博客<br>配置SSH keys：<br>$ ssh-keygen -t rsa -C 邮件地址@youremail.com</p>
+</li>
+</ol>
+<pre><code>安装hexo git插件：
+$ npm install hexo-deployer-git –save
+
+发布更新博客：
+$ hexo d -g生成的文件在public文件夹里
+
+$ hexo clean 删除public文件夹和db.json里的内容
+
+在source文件夹下新建无后缀文件CNAME，内容为”xiangbing.me”
+再次发布：
+$ hexo d -g
+</code></pre><ol>
+<li><p>主题配置和插件安装<br>$ hexo clean<br>在blog目录下右键点击Git Bash，执行<br>git clone <a href="https://github.com/wuchong/jacman.git" target="_blank" rel="external">https://github.com/wuchong/jacman.git</a> themes/jacman<br>修改blog目录下的_config.yml配置文件中的theme属性，将其设置为jacman。<br>更新：cd themes/jacman<br>git pull origin master<br>主题配置：<br>主题配置文件是blog/themes/jacman目录下的_config.yml。具体参数及功能因主题不同而各异，请查看相应主题的介绍自行修改。<br>插件位于blog/node_modules目录下，Hexo 3.0.0默认会安装以下插件</p>
+<p>hexo-generator-archive<br>hexo-generator-category<br>hexo-generator-index<br>hexo-generator-tag<br>hexo-renderer-ejs<br>hexo-renderer-marked<br>hexo-renderer-stylus<br>hexo-server<br>推荐插件：<br>npm install hexo-deployer-git –save用于向GitHub部署静态页面</p>
+<p>npm install hexo-generator-feed –save 用于生成RSS订阅<br>npm install hexo-generator-sitemap –save<br>用于生成搜索引擎网站地图</p>
+</li>
+</ol>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -196,11 +251,7 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/写博客/" title="写博客">写博客<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/博客/" title="博客">博客<sup>1</sup></a></li>
+				<li><a href="/tags/博客/" title="博客">博客<sup>2</sup></a></li>
 			
 		
 		</ul>
