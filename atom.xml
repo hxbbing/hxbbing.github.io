@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-09-18T12:54:52.924Z</updated>
+  <updated>2016-10-03T14:05:48.450Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2016年下学期个人计划</title>
+    <link href="http://hxbbing.github.io/2016/10/03/2016%E5%B9%B4%E4%B8%8B%E5%AD%A6%E6%9C%9F%E4%B8%AA%E4%BA%BA%E8%AE%A1%E5%88%92/"/>
+    <id>http://hxbbing.github.io/2016/10/03/2016年下学期个人计划/</id>
+    <published>2016-10-03T14:03:33.000Z</published>
+    <updated>2016-10-03T14:05:48.450Z</updated>
+    
+    <content type="html"><![CDATA[<p>小目标：下学期发表一篇论文</p>
+<p>阅读的书籍：</p>
+<ul>
+<li></li>
+</ul>
+<ol>
+<li><p>数学知识：<font color="red" size="3" face="“黑体”">《统计学习方法》、《统计思维：程序员数学之概率统计》</font></p>
+</li>
+<li><p>Python:<font color="red" size="3" face="“黑体”">《利用Python进行数据分析》</font></p>
+</li>
+<li><p>机器学习：<font color="red" size="3" face="“黑体”">《神经网络与深度学习》</font></p>
+</li>
+</ol>
+<font color="#000000" size="3" face="“黑体”"><strong>宝剑纷纷从磨砺出，梅花香自苦寒来。共勉。</strong></font>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小目标：下学期发表一篇论文&lt;/p&gt;
+&lt;p&gt;阅读的书籍：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;数学知识：&lt;font color=&quot;red&quot; size=&quot;3&quot; face=&quot;“黑体”&quot;&gt;《统计学习方法》、《统计思维：程序员数学之概率统计》&lt;/
+    
+    </summary>
+    
+      <category term="计划" scheme="http://hxbbing.github.io/categories/%E8%AE%A1%E5%88%92/"/>
+    
+    
+      <category term="计划" scheme="http://hxbbing.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>论文类型Journal、magazine、transaction、letter等的区别</title>
