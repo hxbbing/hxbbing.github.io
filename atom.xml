@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-03T14:15:55.173Z</updated>
+  <updated>2016-10-05T10:34:28.140Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python学习笔记一</title>
+    <link href="http://hxbbing.github.io/2016/10/05/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/"/>
+    <id>http://hxbbing.github.io/2016/10/05/Python学习笔记一/</id>
+    <published>2016-10-05T10:22:55.000Z</published>
+    <updated>2016-10-05T10:34:28.140Z</updated>
+    
+    <content type="html"><![CDATA[<p>Python环境搭建<br><a id="more"></a><br>Windows搭建比较简单（通常安装Anaconda即可）。建议可以先看看廖雪峰教程（<a href="http://www.liaoxuefeng.com/" title="廖雪峰" target="_blank" rel="external">http://www.liaoxuefeng.com/</a>）</p>
+<p>Linux安装：</p>
+<p>sudo apt-get install ipython</p>
+<p>vi hello.py</p>
+<p>在Eclipse里面安装Python插件：</p>
+<p>PyDev </p>
+<p><a href="http://pydev.org/updates（可能会被墙）" target="_blank" rel="external">http://pydev.org/updates（可能会被墙）</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Python环境搭建&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://hxbbing.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://hxbbing.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>2016年下学期个人计划</title>
