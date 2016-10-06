@@ -347,6 +347,55 @@
   </entry>
   
   <entry>
+    <title>matlab干货系列:(一)</title>
+    <link href="http://hxbbing.github.io/2016/09/06/matlab%E5%B9%B2%E8%B4%A7%E7%B3%BB%E5%88%97-%E4%B8%80/"/>
+    <id>http://hxbbing.github.io/2016/09/06/matlab干货系列-一/</id>
+    <published>2016-09-06T06:29:43.000Z</published>
+    <updated>2016-10-06T06:36:20.748Z</updated>
+    
+    <content type="html"><![CDATA[<p>matlab中的unique函数</p>
+<pre><code>向量中的那些唯一的元素
+</code></pre><a id="more"></a>
+<p><strong>语法</strong></p>
+<p>b = unique(A)</p>
+<p>b = unique(A,’rows’)</p>
+<p>[b,m,n] = unique(…)</p>
+<p><strong>描述</strong></p>
+<p>1、b = unique(A)  返回的是和A中一样的值，但是没有重复元素。产生的结果向量按升序排序。A可以是一个字符串的单元阵列。</p>
+<p>2、b = unique(A,’rows’)  返回的是A中的唯一的行数。</p>
+<p>3、[b,m,n] = unique(…)  也返回索引向量m和n，使得B = A（M）和A= B（N）。m的每一个元素是最大的下标，使得B = A（M）。对于行的组合，B = A（M，:)和A= B（N，:)。</p>
+<p><strong>示例</strong></p>
+<p>A = [1 1 5 6 2 3 3 9 8 6 2 4]</p>
+<p>A =<br>1     1     5     6     2     3     3     9     8     6     2     4</p>
+<p>[b,m,n] = unique(A)</p>
+<p>b =<br>      1     2     3     4     5     6     8     9</p>
+<p>m =<br>      2    11     7    12     3    10     9     8</p>
+<p>n =<br>1     1     5     6     2     3     3     8     7     6     2     4</p>
+<p>A(m)</p>
+<p>ans =<br>      1     2     3     4     5     6     8     9</p>
+<p>b(n)</p>
+<p>ans =<br>1     1     5     6     2     3     3     9     8     6     2     4</p>
+<p>因为NaN是互不相等的，把他们作为独特的元素对待</p>
+<p>unique([1 1 NaN NaN])</p>
+<p>ans =<br>     1 NaN NaN</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;matlab中的unique函数&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;向量中的那些唯一的元素
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="matlab" scheme="http://hxbbing.github.io/categories/matlab/"/>
+    
+    
+      <category term="matlab" scheme="http://hxbbing.github.io/tags/matlab/"/>
+    
+  </entry>
+  
+  <entry>
     <title>感想一</title>
     <link href="http://hxbbing.github.io/2016/08/16/%E6%84%9F%E6%83%B3%E4%B8%80/"/>
     <id>http://hxbbing.github.io/2016/08/16/感想一/</id>
