@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-05T10:34:28.140Z</updated>
+  <updated>2016-10-06T01:35:36.015Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,163 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python课程大纲</title>
+    <link href="http://hxbbing.github.io/2016/10/06/Python%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2/"/>
+    <id>http://hxbbing.github.io/2016/10/06/Python课程大纲/</id>
+    <published>2016-10-06T01:22:33.000Z</published>
+    <updated>2016-10-06T01:35:36.015Z</updated>
+    
+    <content type="html"><![CDATA[<p>从数学层面推导最经典的机器学习算法，涉及的Python库有：Numpy/Scipy/matplotlib/Pandas/scikit-learn/libSVM/LDA/NLTK</p>
+<p>每个算法模块从三个方面着手：<font color="red" size="3" face="“黑体”">(1)弄懂原理；(2)自己动手实现；(3)使用已有机器学习库做效果对比。</font></p>
+<a id="more"></a>
+<font color="red" size="3" face="“黑体”">1、机器学习中的数学基础</font>
+
+<p>Taylor展式的应用</p>
+<p>常见概率分布与共轭分布</p>
+<p>最大似然估计</p>
+<p>中心极限定理及其应用</p>
+<p>大数定理及其应用</p>
+<p>Lagrange凸优化</p>
+<font color="red" size="3" face="“黑体”">2、Python及其数学/机器学习库的使用</font>
+
+<p>机器学习算法类别</p>
+<p>机器学习应用的一般流程</p>
+<p>解释器Python2.7与IDE：Anaconda/Pycharm</p>
+<p>numpy/scipy/matplotlib/panda库的介绍和典型使用</p>
+<p>举例：SVD用于图像处理</p>
+<font color="red" size="3" face="“黑体”">3、回归</font>
+
+<p>线性回归</p>
+<p>高斯分布</p>
+<p>Logistic回归</p>
+<p>最大似然估计</p>
+<p>梯度下降算法：BGD与SGD</p>
+<p>特征选择与过拟合</p>
+<font color="red" size="3" face="“黑体”">4、回归实践</font>
+
+<p>机器学习sklearn库介绍</p>
+<p>Ridge回归、LASSO</p>
+<p>Logistic/Softmax回归</p>
+<p>回归代码实现和调参</p>
+<p>数据可视化</p>
+<font color="red" size="3" face="“黑体”">5、决策树和随机森林</font>
+
+<p>熵、联合熵、条件熵、KL散度、互信息</p>
+<p>最大似然估计与最大熵模型</p>
+<p>ID3、C4.5、CART详解</p>
+<p>决策树的评价</p>
+<p>预剪枝和后剪枝</p>
+<p>Bagging</p>
+<p>随机森林</p>
+<font color="red" size="3" face="“黑体”">6、随机森林实践</font>
+
+<p>手写随机森林实践</p>
+<p>调用开源库函数完成随机森林</p>
+<p>数据结构的综合使用</p>
+<p>gini系数</p>
+<font color="red" size="3" face="“黑体”">7、提升</font>
+
+<p>提升为什么有效</p>
+<p>Adaboost算法</p>
+<p>加法模型与指数损失</p>
+<p>梯度提升决策树GBDT</p>
+<font color="red" size="3" face="“黑体”">8、xgboost</font>
+
+<p>自己动手实现GBDT</p>
+<p>xgboost库介绍</p>
+<p>Taylor展式与学习算法</p>
+<p>xgboost应用于实践</p>
+<font color="red" size="3" face="“黑体”">9、SVM</font>
+
+<p>线性可分支持向量机</p>
+<p>软间隔的改进</p>
+<p>损失函数的理解</p>
+<p>核函数的原理和选择</p>
+<p>SMO算法</p>
+<font color="red" size="3" face="“黑体”">10、SVM实践</font>
+
+<p>libSVM代码库介绍</p>
+<p>原始数据和特征提取</p>
+<p>手写随机森林实践</p>
+<p>调用开源库函数完成SVM</p>
+<p>SVM、Logistic回归、随机森林三者的横向比较</p>
+<font color="red" size="3" face="“黑体”">11、聚类</font>
+
+<p>各种相似度度量及其相互关系</p>
+<p>K-means与K-Medoids及变种</p>
+<p>AP算法/LPA算法及其应用</p>
+<p>密度聚类DBSCAN/DCluster(Science2014)</p>
+<p>谱聚类SC</p>
+<p>聚类评价和结果指标</p>
+<font color="red" size="3" face="“黑体”">12、聚类实践</font>
+
+<p>动手自己实现K-means</p>
+<p>K-Means++算法原理和实现</p>
+<p>并查集的实践应用</p>
+<p>密度聚类的代码实现</p>
+<p>使用开源机器学习包完成聚类</p>
+<font color="red" size="3" face="“黑体”">13、EM算法</font>
+
+<p>最大似然估计</p>
+<p>Jensen不等式</p>
+<p>朴素理解EM算法</p>
+<p>精确推导EM算法</p>
+<p>EM算法的深入理解</p>
+<p>混合高斯分布</p>
+<font color="red" size="3" face="“黑体”">14、EM算法实践</font>
+
+<p>多元高斯分布的EM实现</p>
+<p>分类结果的数据可视化</p>
+<p>EM与聚类的比较</p>
+<p>主题模型pLSA与EM算法</p>
+<font color="red" size="3" face="“黑体”">15、主题模型LDA</font>
+
+<p>贝叶斯学派的模型认识</p>
+<p>共轭先验分布</p>
+<p>Dirichlet分布</p>
+<p>Laplace平滑</p>
+<p>Gibbs采样详解</p>
+<font color="red" size="3" face="“黑体”">16、LDA实践</font>
+
+<p>停止词和高频词</p>
+<p>动手自己实现LDA</p>
+<p>LDA开源包的使用和过程分析</p>
+<p>Metropolis-Hastings算法</p>
+<p>MCMC</p>
+<p>LDA与word2vec的比较</p>
+<font color="red" size="3" face="“黑体”">17、隐马尔科夫模型HMM</font>
+
+<p>概率计算问题</p>
+<p>前向/后向算法</p>
+<p>HMM的参数学习</p>
+<p>Baum-Welch算法详解</p>
+<p>Viterbi算法详解</p>
+<font color="red" size="3" face="“黑体”">18、HMM实践</font>
+
+<p>动手自己实现HMM用于中文分词</p>
+<p>多个语言分词开源包的使用和过程分析</p>
+<p>文件数据格式UFT-8、Unicode</p>
+<p>停止词和标点符号对分词的影响</p>
+<p>前向后向算法计算概率溢出的解决方案</p>
+<p>EM算法和MLE的优劣比较</p>
+<p>发现新词和分词效果分析</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;从数学层面推导最经典的机器学习算法，涉及的Python库有：Numpy/Scipy/matplotlib/Pandas/scikit-learn/libSVM/LDA/NLTK&lt;/p&gt;
+&lt;p&gt;每个算法模块从三个方面着手：&lt;font color=red size=3 face=“黑体”&gt;(1)弄懂原理；(2)自己动手实现；(3)使用已有机器学习库做效果对比。&lt;/font&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Python" scheme="http://hxbbing.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://hxbbing.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Python学习笔记一</title>
