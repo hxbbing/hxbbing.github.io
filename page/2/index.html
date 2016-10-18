@@ -75,229 +75,72 @@
     <div id="container">
       <div id="main">
 
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/08/15/为什么要写博客/" title="为什么要写博客?" itemprop="url">为什么要写博客?</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Xiangbing Huang" target="_blank" itemprop="author">Xiangbing Huang</a>
-		
-  <p class="article-time">
-    <time datetime="2016-08-15T07:54:11.000Z" itemprop="datePublished"> 发表于 2016-08-15</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <h2 id="为什么要写Blog？"><a href="#为什么要写Blog？" class="headerlink" title="为什么要写Blog？"></a>为什么要写Blog？</h2><p>阮一峰曾经说过：</p>
-<p>喜欢写Blog的人，会经历三个阶段。</p>
-<blockquote>
-<ul>
-<li>第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</li>
-<li>第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</li>
-<li>第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</li>
-</ul>
-</blockquote>
-<hr>
-<h2 id="我的理解"><a href="#我的理解" class="headerlink" title="我的理解"></a>我的理解</h2><ol>
-<li>强化所学</li>
-<li>表达清晰</li>
-<li>记录点滴</li>
-<li>交到朋友</li>
-</ol>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/感想/">感想</a>
-</div>
-
-
-  <div class="article-tags">
   
-  <span></span> <a href="/tags/博客/">博客</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/08/15/搭建博客/" title="搭建博客" itemprop="url">搭建博客</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Xiangbing Huang" target="_blank" itemprop="author">Xiangbing Huang</a>
-		
-  <p class="article-time">
-    <time datetime="2016-08-15T01:36:53.000Z" itemprop="datePublished"> 发表于 2016-08-15</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：</p>
-<hr>
-<ol>
-<li>首先你需要有一个GitHub账号<br><a href="https://github.com/hxbbing/hxbbing.github.io" target="_blank" rel="external">我的账号</a></li>
-<li>域名的申请（这里以申请万网域名为例）<br><a href="xiangbing.me">我的域名</a></li>
-<li><p>安装hexo<br>已安装好git和node.js</p>
-<p>hexo是基于node.js的静态博客，官网也是搭建在GitHub上<br>在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”<br>npm install hexo-cli -g<br>npm install hexo –save<br>安装完成后，在输入命令，验证是否安装正确<br>$ hexo -v</p>
-<p>本地运行hexo</p>
-<p>$ hexo init</p>
-<p>$ npm install</p>
-<p>运行hexo,以后要在本地运行博客只要输入该命令即可<br>$ hexo s</p>
-<p>打开浏览器，输入localhost:4000,就可以在本地看到你的个人博客了并且此时已生成db.json<br>$ hexo clean 删除db.json里面的内容</p>
-</li>
-</ol>
-<ol>
-<li><p>管理博客<br>使用Sublime_Text编辑器（绿色软件无需安装，解压即可使用）打开blog/_config.yml文件，进行配置</p>
-</li>
-<li><p>发布博客<br>配置SSH keys：<br>$ ssh-keygen -t rsa -C 邮件地址@youremail.com</p>
-</li>
-</ol>
-<pre><code>安装hexo git插件：
-$ npm install hexo-deployer-git –save
-
-发布更新博客：
-$ hexo d -g生成的文件在public文件夹里
-
-$ hexo clean 删除public文件夹和db.json里的内容
-
-在source文件夹下新建无后缀文件CNAME，内容为”xiangbing.me”
-再次发布：
-$ hexo d -g
-</code></pre><ol>
-<li><p>主题配置和插件安装<br>$ hexo clean<br>在blog目录下右键点击Git Bash，执行<br>git clone <a href="https://github.com/wuchong/jacman.git" target="_blank" rel="external">https://github.com/wuchong/jacman.git</a> themes/jacman<br>修改blog目录下的_config.yml配置文件中的theme属性，将其设置为jacman。<br>更新：cd themes/jacman<br>git pull origin master<br>主题配置：<br>主题配置文件是blog/themes/jacman目录下的_config.yml。具体参数及功能因主题不同而各异，请查看相应主题的介绍自行修改。<br>插件位于blog/node_modules目录下，Hexo 3.0.0默认会安装以下插件</p>
-<p>hexo-generator-archive<br>hexo-generator-category<br>hexo-generator-index<br>hexo-generator-tag<br>hexo-renderer-ejs<br>hexo-renderer-marked<br>hexo-renderer-stylus<br>hexo-server<br>推荐插件：<br>npm install hexo-deployer-git –save用于向GitHub部署静态页面</p>
-<p>npm install hexo-generator-feed –save 用于生成RSS订阅<br>npm install hexo-generator-sitemap –save<br>用于生成搜索引擎网站地图</p>
-</li>
-</ol>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/hexo入门/">hexo入门</a>
-</div>
-
-
-  <div class="article-tags">
+<section class="post" itemscope itemprop="blogitem">
   
-  <span></span> <a href="/tags/博客/">博客</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+    <a href="/2016/08/15/为什么要写博客/" title="为什么要写博客?" itemprop="url">
+  
+    <h1 itemprop="name">为什么要写博客?</h1>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+     
+           <p itemprop="description" >为什么要写Blog？阮一峰曾经说过：
+喜欢写Blog的人，会经历三个阶段。
+
+
+第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
+第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
+第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让</p>
+        
     
-      <a href="/2016/08/14/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Xiangbing Huang" target="_blank" itemprop="author">Xiangbing Huang</a>
-		
-  <p class="article-time">
-    <time datetime="2016-08-14T07:59:28.243Z" itemprop="datePublished"> 发表于 2016-08-14</time>
+    <time datetime="2016-08-15T07:54:11.000Z" itemprop="datePublished">2016-08-15</time>
+  </a>
+</section>
+
+
+
+
+
+
+  
+<section class="post" itemscope itemprop="blogitem">
+  
+    <a href="/2016/08/15/搭建博客/" title="搭建博客" itemprop="url">
+  
+    <h1 itemprop="name">搭建博客</h1>
     
-  </p>
-</header>
-    <div class="article-content">
+     
+           <p itemprop="description" >搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：
+
+
+首先你需要有一个GitHub账号我的账号
+域名的申请（这里以申请万网域名为例）我的域名
+安装hexo已安装好git和node.js
+hexo是基于node.js的静态博客，官网也是搭建在GitHub上在电脑</p>
         
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    
+    <time datetime="2016-08-15T01:36:53.000Z" itemprop="datePublished">2016-08-15</time>
+  </a>
+</section>
 
+
+
+
+
+
+  
+<section class="post" itemscope itemprop="blogitem">
+  
+    <a href="/2016/08/14/hello-world/" title="Hello World" itemprop="url">
+  
+    <h1 itemprop="name">Hello World</h1>
+    
+     
+           <p itemprop="description" >Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the </p>
         
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
+    
+    <time datetime="2016-08-14T07:59:28.243Z" itemprop="datePublished">2016-08-14</time>
+  </a>
+</section>
 
 
 
@@ -305,7 +148,7 @@ $ hexo d -g
 
 
 
-  <nav id="page-nav" class="clearfix">
+  <nav id="page-nav" class="clearfix unexpand">
     <a class="extend prev" rel="prev" href="/"><span></span>Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
 
