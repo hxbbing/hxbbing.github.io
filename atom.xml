@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-21T12:10:37.267Z</updated>
+  <updated>2016-10-21T12:29:12.259Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>统计学习方法</title>
+    <link href="http://hxbbing.github.io/2016/10/21/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    <id>http://hxbbing.github.io/2016/10/21/统计学习方法/</id>
+    <published>2016-10-21T12:28:11.000Z</published>
+    <updated>2016-10-21T12:29:12.259Z</updated>
+    
+    <content type="html"><![CDATA[<p>可以先参考知乎专栏<a href="https://zhuanlan.zhihu.com/p/22281607看看" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22281607看看</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;可以先参考知乎专栏&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22281607看看&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zhuanlan.zhihu.com/p/22281607看看&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo使用总结</title>
