@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-21T12:29:12.259Z</updated>
+  <updated>2016-10-22T14:02:30.454Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -20,16 +20,18 @@
     <link href="http://hxbbing.github.io/2016/10/21/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     <id>http://hxbbing.github.io/2016/10/21/统计学习方法/</id>
     <published>2016-10-21T12:28:11.000Z</published>
-    <updated>2016-10-21T12:29:12.259Z</updated>
+    <updated>2016-10-22T14:02:30.454Z</updated>
     
-    <content type="html"><![CDATA[<p>可以先参考知乎专栏<a href="https://zhuanlan.zhihu.com/p/22281607看看" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22281607看看</a></p>
+    <content type="html"><![CDATA[<p>可以先参考知乎专栏 <a href="https://zhuanlan.zhihu.com/p/22281607" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22281607</a> 看看</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;可以先参考知乎专栏&lt;a href=&quot;https://zhuanlan.zhihu.com/p/22281607看看&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zhuanlan.zhihu.com/p/22281607看看&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;可以先参考知乎专栏 &lt;a href=&quot;https://zhuanlan.zhihu.com/p/22281607&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zhuanlan.zhihu.com/p/22281607&lt;/a&gt; 看看&lt;/p&gt;
     
     </summary>
+    
+      <category term="统计学习方法" scheme="http://hxbbing.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
     
   </entry>
@@ -39,7 +41,7 @@
     <link href="http://hxbbing.github.io/2016/10/16/hexo%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/"/>
     <id>http://hxbbing.github.io/2016/10/16/hexo使用总结/</id>
     <published>2016-10-16T15:33:53.000Z</published>
-    <updated>2016-10-21T12:10:37.267Z</updated>
+    <updated>2016-10-22T14:05:59.122Z</updated>
     
     <content type="html"><![CDATA[<p>参考<a href="http://tengj.top/" title="嘟嘟独立博客" target="_blank" rel="external">http://tengj.top/</a>，写得超详细~不错，一步一步来就可以啦。</p>
 ]]></content>
@@ -51,10 +53,10 @@
     
     </summary>
     
-      <category term="博客" scheme="http://hxbbing.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="hexo" scheme="http://hxbbing.github.io/categories/hexo/"/>
     
     
-      <category term="hexo入门" scheme="http://hxbbing.github.io/tags/hexo%E5%85%A5%E9%97%A8/"/>
+      <category term="hexo" scheme="http://hxbbing.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -282,7 +284,7 @@
     <link href="http://hxbbing.github.io/2016/10/03/2016%E5%B9%B4%E4%B8%8B%E5%AD%A6%E6%9C%9F%E4%B8%AA%E4%BA%BA%E8%AE%A1%E5%88%92/"/>
     <id>http://hxbbing.github.io/2016/10/03/2016年下学期个人计划/</id>
     <published>2016-10-03T14:03:33.000Z</published>
-    <updated>2016-10-03T14:15:55.173Z</updated>
+    <updated>2016-10-22T14:06:26.692Z</updated>
     
     <content type="html"><![CDATA[<p>小目标：下学期发表一篇论文</p>
 <p>阅读的书籍：</p>
@@ -310,10 +312,10 @@
     
     </summary>
     
-      <category term="计划" scheme="http://hxbbing.github.io/categories/%E8%AE%A1%E5%88%92/"/>
+      <category term="个人计划" scheme="http://hxbbing.github.io/categories/%E4%B8%AA%E4%BA%BA%E8%AE%A1%E5%88%92/"/>
     
     
-      <category term="计划" scheme="http://hxbbing.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+      <category term="个人计划" scheme="http://hxbbing.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%AE%A1%E5%88%92/"/>
     
   </entry>
   
@@ -322,7 +324,7 @@
     <link href="http://hxbbing.github.io/2016/09/18/%E8%AE%BA%E6%96%87%E7%B1%BB%E5%9E%8BJournal%E3%80%81magazine%E3%80%81transaction%E3%80%81letter%E7%AD%89%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://hxbbing.github.io/2016/09/18/论文类型Journal、magazine、transaction、letter等的区别/</id>
     <published>2016-09-18T12:34:02.000Z</published>
-    <updated>2016-09-18T12:54:52.924Z</updated>
+    <updated>2016-10-22T14:02:53.225Z</updated>
     
     <content type="html"><![CDATA[<p>几种论文类型的区别，以下是我整理总结的：<br><a id="more"></a><br>一、主要分类</p>
 <font color="red" size="3" face="“黑体”"><br>Journal期刊：刊登关于某特殊主题的文章的期刊<br><br>magazine杂志：综合性内容的期刊<br><br>transactions(学会等的)议事录,会报,会刊<br><br>proceedings记录, 会议录; 年[学]报; (科学文献)汇编</font>
@@ -353,7 +355,7 @@
       <category term="科研" scheme="http://hxbbing.github.io/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="博客" scheme="http://hxbbing.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="科研" scheme="http://hxbbing.github.io/tags/%E7%A7%91%E7%A0%94/"/>
     
   </entry>
   
@@ -362,7 +364,7 @@
     <link href="http://hxbbing.github.io/2016/09/09/%E6%80%8E%E4%B9%88%E6%89%8D%E8%83%BD%E7%9C%8B%E6%87%82%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BA%E6%96%87%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
     <id>http://hxbbing.github.io/2016/09/09/怎么才能看懂计算机论文中的数学公式/</id>
     <published>2016-09-09T05:33:38.000Z</published>
-    <updated>2016-09-09T05:39:36.216Z</updated>
+    <updated>2016-10-22T14:00:33.307Z</updated>
     
     <content type="html"><![CDATA[<p>一篇好论文能发表的一个前提是，该领域的研究生可以根据这篇论文提供的信息去再现论文中所做的实验（算法）。</p>
 <p>根据这个前提，如果你遇到了看不懂的名词或公式，论文中必定是会给出相应的参考文献的，你只要去看参考文献，或看参考文献的参考文献，或参考文献的…的参考文献就可以了。</p>
@@ -385,40 +387,7 @@
       <category term="科研" scheme="http://hxbbing.github.io/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-      <category term="博客" scheme="http://hxbbing.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机论文怎么跟作者要代码</title>
-    <link href="http://hxbbing.github.io/2016/09/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BA%E6%96%87%E6%80%8E%E4%B9%88%E8%B7%9F%E4%BD%9C%E8%80%85%E8%A6%81%E4%BB%A3%E7%A0%81/"/>
-    <id>http://hxbbing.github.io/2016/09/07/计算机论文怎么跟作者要代码/</id>
-    <published>2016-09-07T12:28:39.000Z</published>
-    <updated>2016-09-07T12:37:00.495Z</updated>
-    
-    <content type="html"><![CDATA[<ol>
-<li><strong>如果这论文很老，论文里的算法在该领域有举足轻重的地位。那么网上很可能有工具包。例如我做的机器学习方向，经典的聚类、分类算法，MATLAB, python等常用语言都有丰富的工具包可供使用，一般有名的算法都会包括在其中。</strong></li>
-</ol>
-<ol>
-<li><strong>如果论文非常新，或者论文中的算法在该领域并没有多大的影响，这时网上各种编程语言自带的工具包一般是不包括它的。我能想到的大概有以下3种方法：</strong></li>
-</ol>
-<p>a. 在google搜索该论文的名称或者第一作者的姓名，找到该作者的个人学术主页（计算机领域多数科研人员都有自己的学术主页）。在他的主页上看看他是否公开了论文的代码，很多学者乐于分享自己的代码。</p>
-<p>b. 在google搜索该论文中算法的名字+code或者是某种语言，如python等。这是因为阅读这篇论文的科研人员不少，有的人读完会写代码并公布出来。</p>
-<p>c. 邮件联系第一作者。可惜多数情况下邮件都是石沉大海。尤其是一些很忙的大牛，他们收到类似的邮件太多，可能扫一眼就不再过问。相反，如果是一些博士生，有的还是乐于分享代码的，这样自己的文章也更容易被同行引用。<br>根据我个人经验，上述a,b,c方案成功的概率分别只有30%, 10%, 10%。当然不同领域的学术气氛习惯也不同。</p>
-<p>另外，还有的办法是，查看该论文被哪些论文引用了，引用者有时需要将自己的算法与引用的算法作比较，所以他们有可能这个算法的代码。这个途径找代码工作量更大，概率更小，所以不推荐，不过我确实有通过这个途径找到过。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;如果这论文很老，论文里的算法在该领域有举足轻重的地位。那么网上很可能有工具包。例如我做的机器学习方向，经典的聚类、分类算法，MATLAB, python等常用语言都有丰富的工具包可供使用，一般有名的算法都会包括在其中。&lt;/strong&gt;&lt;/li&gt;
-    
-    </summary>
-    
-      <category term="科研" scheme="http://hxbbing.github.io/categories/%E7%A7%91%E7%A0%94/"/>
-    
-    
-      <category term="博客" scheme="http://hxbbing.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="科研" scheme="http://hxbbing.github.io/tags/%E7%A7%91%E7%A0%94/"/>
     
   </entry>
   
@@ -498,7 +467,7 @@
     <link href="http://hxbbing.github.io/2016/08/15/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
     <id>http://hxbbing.github.io/2016/08/15/为什么要写博客/</id>
     <published>2016-08-15T07:54:11.000Z</published>
-    <updated>2016-08-15T08:07:47.781Z</updated>
+    <updated>2016-10-22T14:01:59.356Z</updated>
     
     <content type="html"><![CDATA[<h2 id="为什么要写Blog？"><a href="#为什么要写Blog？" class="headerlink" title="为什么要写Blog？"></a>为什么要写Blog？</h2><p>阮一峰曾经说过：</p>
 <p>喜欢写Blog的人，会经历三个阶段。</p>
@@ -528,7 +497,7 @@
       <category term="感想" scheme="http://hxbbing.github.io/categories/%E6%84%9F%E6%83%B3/"/>
     
     
-      <category term="博客" scheme="http://hxbbing.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="感想" scheme="http://hxbbing.github.io/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
@@ -537,7 +506,7 @@
     <link href="http://hxbbing.github.io/2016/08/15/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://hxbbing.github.io/2016/08/15/搭建博客/</id>
     <published>2016-08-15T01:36:53.000Z</published>
-    <updated>2016-08-15T08:38:24.262Z</updated>
+    <updated>2016-10-22T14:04:32.562Z</updated>
     
     <content type="html"><![CDATA[<p>搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：</p>
 <hr>
@@ -587,37 +556,10 @@ $ hexo d -g
     
     </summary>
     
-      <category term="hexo入门" scheme="http://hxbbing.github.io/categories/hexo%E5%85%A5%E9%97%A8/"/>
+      <category term="hexo" scheme="http://hxbbing.github.io/categories/hexo/"/>
     
     
-      <category term="博客" scheme="http://hxbbing.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://hxbbing.github.io/2016/08/14/hello-world/"/>
-    <id>http://hxbbing.github.io/2016/08/14/hello-world/</id>
-    <published>2016-08-14T07:59:28.243Z</published>
-    <updated>2016-08-14T07:59:28.252Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="hexo" scheme="http://hxbbing.github.io/tags/hexo/"/>
     
   </entry>
   
