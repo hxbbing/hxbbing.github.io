@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-22T14:02:30.454Z</updated>
+  <updated>2016-10-22T14:18:36.521Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hxbbing.github.io/2016/10/21/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     <id>http://hxbbing.github.io/2016/10/21/统计学习方法/</id>
     <published>2016-10-21T12:28:11.000Z</published>
-    <updated>2016-10-22T14:02:30.454Z</updated>
+    <updated>2016-10-22T14:18:36.521Z</updated>
     
     <content type="html"><![CDATA[<p>可以先参考知乎专栏 <a href="https://zhuanlan.zhihu.com/p/22281607" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22281607</a> 看看</p>
 ]]></content>
@@ -33,6 +33,8 @@
     
       <category term="统计学习方法" scheme="http://hxbbing.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
+    
+      <category term="统计学习方法" scheme="http://hxbbing.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
