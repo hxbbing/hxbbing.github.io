@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-10-22T14:18:36.521Z</updated>
+  <updated>2016-10-23T11:43:16.567Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器系列一</title>
+    <link href="http://hxbbing.github.io/2016/10/23/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97%E4%B8%80/"/>
+    <id>http://hxbbing.github.io/2016/10/23/服务器系列一/</id>
+    <published>2016-10-23T11:16:14.000Z</published>
+    <updated>2016-10-23T11:43:16.567Z</updated>
+    
+    <content type="html"><![CDATA[<p>下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、</p>
+<p>首先连接到阿里云服务器，操作系统Windows Server 2012 R2</p>
+<p>进入mongodb官网<a href="https://www.mongodb.com/，死活下不下来.msi的，网上好像说要下.zip的，但我感觉跟之前的版本不一样，可能是服务器的安全级别比较高，怎么都下不下来。我就想安装ftp，先下到本地，然后传上去，百度了半天ftp还是安装失败，沮丧、、这个时候我就想到能不能下载个qq从外面传进去，尼玛没想到qq也不能用还弄成了保护模式，还要申诉找回密码。" target="_blank" rel="external">https://www.mongodb.com/，死活下不下来.msi的，网上好像说要下.zip的，但我感觉跟之前的版本不一样，可能是服务器的安全级别比较高，怎么都下不下来。我就想安装ftp，先下到本地，然后传上去，百度了半天ftp还是安装失败，沮丧、、这个时候我就想到能不能下载个qq从外面传进去，尼玛没想到qq也不能用还弄成了保护模式，还要申诉找回密码。</a></p>
+<p>最后想到硬盘共享，又找到一篇文章<a href="http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i" target="_blank" rel="external">http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i</a><br>于是把mongodb-win32-x86_64-2008plus-ssl-3.2.10-signed.msi下载到d盘，本地资源勾选了d盘，远程连接之后（用户名Administrator 密码是你服务器开机密码），我把它拷贝到了C盘，反正服务器就一个盘。</p>
+<p>接下来就参考了这篇文章：<a href="http://blog.csdn.net/qq_16313365/article/details/52241357" target="_blank" rel="external">http://blog.csdn.net/qq_16313365/article/details/52241357</a> 还有（三）</p>
+<p>注意：目录有空格加双引号<br>将mongodb的bin目录添加到Path中。</p>
+<p>最后在cmd中输入mongo，显示connecting to: test</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、&lt;/p&gt;
+&lt;p&gt;首先连接到阿里云服务器，操作系统Windows Server 2012 R2&lt;/p&gt;
+&lt;p&gt;进入mongodb官网&lt;a href=&quot;https://www.mongodb.com/，
+    
+    </summary>
+    
+      <category term="服务器系列" scheme="http://hxbbing.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="服务器系列" scheme="http://hxbbing.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
   
   <entry>
     <title>统计学习方法</title>
