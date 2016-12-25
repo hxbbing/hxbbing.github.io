@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2016-12-25T06:11:12.519Z</updated>
+  <updated>2016-12-25T06:14:34.114Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -20,25 +20,18 @@
     <link href="http://hxbbing.github.io/2016/12/25/Ubuntu%E7%B3%BB%E5%88%97-%E4%B8%80/"/>
     <id>http://hxbbing.github.io/2016/12/25/Ubuntu系列-一/</id>
     <published>2016-12-25T05:48:56.000Z</published>
-    <updated>2016-12-25T06:11:12.519Z</updated>
+    <updated>2016-12-25T06:14:34.114Z</updated>
     
     <content type="html"><![CDATA[<p>LaTeX是一款强大的排版系统，尤其在编辑复杂的数学公式时具有其他软件<br>无法比拟的优势。那么，如何在Ubuntu系统下使用LaTeX呢？</p>
-<ol>
-<li>打开终端：<br>在终端中输入“sudo apt-get install texlive-full”。按回车后需要输入密码，就是Ubuntu系统账户的密码。这一步需要较长时间，如果不想安装所有文件，可以选择“sudo apt-get install texlive”。</li>
-</ol>
-<ol>
-<li>当出现“Do you want to continue? [Y/n]”时，输入字母y，回车即可。<br>之后等待即可。这时我们就安装好了使用LaTeX的基础环境。为了便于编辑，我们需要安装一个编辑器，这里以texmaker为例说明。在终端输入“sudo apt-get install texmaker”。</li>
-</ol>
-<ol>
-<li>安装好，在终端输入“texmaker”即可打开texmaker。<br>texmaker打开后其中中间是输入区域，左侧显示的是文件结构，右侧显示的是生成的PDF。<br>至此，Ubuntu上的LaTeX环境搭建完毕，这时我们就可以进行相关的文档编辑了。</li>
-</ol>
+<p>一、打开终端：<br>在终端中输入“sudo apt-get install texlive-full”。按回车后需要输入密码，就是Ubuntu系统账户的密码。这一步需要较长时间，如果不想安装所有文件，可以选择“sudo apt-get install texlive”。</p>
+<p>二、当出现“Do you want to continue? [Y/n]”时，输入字母y，回车即可。<br>之后等待即可。这时我们就安装好了使用LaTeX的基础环境。为了便于编辑，我们需要安装一个编辑器，这里以texmaker为例说明。在终端输入“sudo apt-get install texmaker”。</p>
+<p>三、安装好，在终端输入“texmaker”即可打开texmaker。<br>texmaker打开后其中中间是输入区域，左侧显示的是文件结构，右侧显示的是生成的PDF。<br>至此，Ubuntu上的LaTeX环境搭建完毕，这时我们就可以进行相关的文档编辑了。</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;LaTeX是一款强大的排版系统，尤其在编辑复杂的数学公式时具有其他软件&lt;br&gt;无法比拟的优势。那么，如何在Ubuntu系统下使用LaTeX呢？&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;打开终端：&lt;br&gt;在终端中输入“sudo apt-get install texlive-full”。按
+&lt;p&gt;一、打开终端：&lt;br&gt;在终端中输入“sudo apt-get install texlive-full”。按回车后需
     
     </summary>
     
