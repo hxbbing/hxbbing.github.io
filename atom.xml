@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-02-22T14:12:38.543Z</updated>
+  <updated>2017-02-25T12:25:31.898Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,76 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学术(二)</title>
+    <link href="http://hxbbing.github.io/2017/02/25/%E5%AD%A6%E6%9C%AF-%E4%BA%8C/"/>
+    <id>http://hxbbing.github.io/2017/02/25/学术-二/</id>
+    <published>2017-02-25T12:07:36.000Z</published>
+    <updated>2017-02-25T12:25:31.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>#<font color="red">写SCI论文的必备套路：准七条</font>  #</p>
+<font color="#4682B4"><br>合格的排版<br><br>一门编程语言<br><br>一些的理论与数学化的描述<br><br>专业化的术语与合格的分析结果<br><br>模型图及结果的绘制和整理<br><br>数据库、手册、已有文献的实验<br><br>无错误的英语表述<br></font>
+
+<h2 id="优秀论文结构范例："><a href="#优秀论文结构范例：" class="headerlink" title="优秀论文结构范例： "></a><font color="red">优秀论文结构范例： </font></h2><p>###<font color="blue">1、Abstract—— 对自己工作及其贡献的总结</font>###</p>
+<p>a）阐述问题；</p>
+<p>b）说明自己的解决方案和结果。</p>
+<p>###<font color="blue">2、Introduction——背景，以及文章的大纲</font>###</p>
+<p>a）题X是重要的；</p>
+<p>X问题很重要</p>
+<p>b）前人的工作A、B曾经研究过这个问题；</p>
+<p>A法</p>
+<p>B法</p>
+<p>c）A、B有一些缺陷</p>
+<p>A法只能求解特殊X问题，<br>B法原则上适用于所有各种缺陷分布，但是求解中遇到?问题</p>
+<p>d）我们提出了方法D；</p>
+<p>D，克服?问题，</p>
+<p>e）D的基本特征，和A、B进行比较；</p>
+<p>f）实验证明D比A、B优越；</p>
+<p>数值实验证明D达到A的精度，同时可以求解A不能处理的X问题。由于克服?问题，D的精度也大大提高。</p>
+<p>g）文章的基本结构，大纲。</p>
+<p>###<font color="blue">3、Previous Work——说明自己与前人的不同</font>###<br>a）将历史上前人的工作分成类别；</p>
+<p>b）对每项重要的历史工作进行简短的回顾(一到几句)，注意要回顾正确，抓住要点，避免歧义；</p>
+<p>c）和自己提出的工作进行比较；</p>
+<p>d）不要忽略前人的重要工作，要公正评价前人的工作，不要过于苛刻；</p>
+<p>e）强调自己的工作和前人工作的不同，最好举出各自适用例子。</p>
+<p>###<font color="blue">4、Our Work——描述自己的工作，可分成多个部分</font>###</p>
+<p>a）从读者角度阐明定义和表示法；</p>
+<p>b）提供算法的伪码，图解和相应解释；</p>
+<p>c）用设问的方式回答读者可能提出的潜在问题；</p>
+<p>d）复杂的冗长的证明和细节可以放在附录中，这里关键是把问题阐述清楚；</p>
+<p>e）特例和例外应该在脚注中给予说明。</p>
+<p>###<font color="blue">5、Experiments——验证提出的方法和思路</font>###<br>a）合理地设计实验（简洁的实验和详尽的实验步骤）；</p>
+<p>b）必要的比较，突出科学性；</p>
+<p>c）讨论，说明结果的意义；</p>
+<p>d）给出结论。</p>
+<p>###<font color="blue">6、Conclusion——总结、前景及结文</font>###</p>
+<p>a）快速简短的总结；</p>
+<p>b）未来工作的展望；</p>
+<p>c）结束全文。</p>
+<p>###<font color="blue">7、References——对相关重要背景文献的全面引用</font>###</p>
+<p>a）选择引文（众所周知的结论不必引用，其他人的工作要引用）；</p>
+<p>b）与前文保持一致。</p>
+<p>###<font color="blue">8、Others——致谢、附录、脚注。处理被拒</font>###</p>
+<p>1、理解被国际权威期刊拒稿是一件正常的事情(70%以上被拒)，保持良好心态。</p>
+<p>2、感谢编辑和Reviewer的意见和工作。</p>
+<p>3、询问副主编，自己可以怎样处理这篇论文最合适(重投/改投/撤回)。</p>
+<p>4、继续新的研究或补充修改后改投其他杂志。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#&lt;font color=&quot;red&quot;&gt;写SCI论文的必备套路：准七条&lt;/font&gt;  #&lt;/p&gt;
+&lt;font color=&quot;#4682B4&quot;&gt;&lt;br&gt;合格的排版&lt;br&gt;&lt;br&gt;一门编程语言&lt;br&gt;&lt;br&gt;一些的理论与数学化的描述&lt;br&gt;&lt;br&gt;专业化的术语与合格的分析结果&lt;
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>学术(一)</title>
@@ -859,68 +929,6 @@
     
     
       <category term="感想" scheme="http://hxbbing.github.io/tags/%E6%84%9F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建博客</title>
-    <link href="http://hxbbing.github.io/2016/08/15/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://hxbbing.github.io/2016/08/15/搭建博客/</id>
-    <published>2016-08-15T01:36:53.000Z</published>
-    <updated>2016-10-22T14:04:32.562Z</updated>
-    
-    <content type="html"><![CDATA[<p>搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：</p>
-<hr>
-<ol>
-<li>首先你需要有一个GitHub账号<br><a href="https://github.com/hxbbing/hxbbing.github.io" target="_blank" rel="external">我的账号</a></li>
-<li>域名的申请（这里以申请万网域名为例）<br><a href="xiangbing.me">我的域名</a></li>
-<li><p>安装hexo<br>已安装好git和node.js</p>
-<p>hexo是基于node.js的静态博客，官网也是搭建在GitHub上<br>在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,然后右键单击选择“Git Bash”<br>npm install hexo-cli -g<br>npm install hexo –save<br>安装完成后，在输入命令，验证是否安装正确<br>$ hexo -v</p>
-<p>本地运行hexo</p>
-<p>$ hexo init</p>
-<p>$ npm install</p>
-<p>运行hexo,以后要在本地运行博客只要输入该命令即可<br>$ hexo s</p>
-<p>打开浏览器，输入localhost:4000,就可以在本地看到你的个人博客了并且此时已生成db.json<br>$ hexo clean 删除db.json里面的内容</p>
-</li>
-</ol>
-<ol>
-<li><p>管理博客<br>使用Sublime_Text编辑器（绿色软件无需安装，解压即可使用）打开blog/_config.yml文件，进行配置</p>
-</li>
-<li><p>发布博客<br>配置SSH keys：<br>$ ssh-keygen -t rsa -C 邮件地址@youremail.com</p>
-</li>
-</ol>
-<pre><code>安装hexo git插件：
-$ npm install hexo-deployer-git –save
-
-发布更新博客：
-$ hexo d -g生成的文件在public文件夹里
-
-$ hexo clean 删除public文件夹和db.json里的内容
-
-在source文件夹下新建无后缀文件CNAME，内容为”xiangbing.me”
-再次发布：
-$ hexo d -g
-</code></pre><ol>
-<li><p>主题配置和插件安装<br>$ hexo clean<br>在blog目录下右键点击Git Bash，执行<br>git clone <a href="https://github.com/wuchong/jacman.git" target="_blank" rel="external">https://github.com/wuchong/jacman.git</a> themes/jacman<br>修改blog目录下的_config.yml配置文件中的theme属性，将其设置为jacman。<br>更新：cd themes/jacman<br>git pull origin master<br>主题配置：<br>主题配置文件是blog/themes/jacman目录下的_config.yml。具体参数及功能因主题不同而各异，请查看相应主题的介绍自行修改。<br>插件位于blog/node_modules目录下，Hexo 3.0.0默认会安装以下插件</p>
-<p>hexo-generator-archive<br>hexo-generator-category<br>hexo-generator-index<br>hexo-generator-tag<br>hexo-renderer-ejs<br>hexo-renderer-marked<br>hexo-renderer-stylus<br>hexo-server<br>推荐插件：<br>npm install hexo-deployer-git –save用于向GitHub部署静态页面</p>
-<p>npm install hexo-generator-feed –save 用于生成RSS订阅<br>npm install hexo-generator-sitemap –save<br>用于生成搜索引擎网站地图</p>
-</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;搭建博客还是挺简单的，使用github+Hexo搭建的步骤精简如下：&lt;/p&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;首先你需要有一个GitHub账号&lt;br&gt;&lt;a href=&quot;https://github.com/hxbbing/hxbbing.github.io&quot; target=&quot;_
-    
-    </summary>
-    
-      <category term="hexo" scheme="http://hxbbing.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://hxbbing.github.io/tags/hexo/"/>
     
   </entry>
   
