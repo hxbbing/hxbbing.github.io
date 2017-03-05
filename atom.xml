@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-03-01T12:43:14.044Z</updated>
+  <updated>2017-03-05T06:26:24.890Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>做好这6点，看文献才能以一当十</title>
+    <link href="http://hxbbing.github.io/2017/03/05/%E5%AD%A6%E6%9C%AF-%E5%9B%9B/"/>
+    <id>http://hxbbing.github.io/2017/03/05/学术-四/</id>
+    <published>2017-03-05T06:20:08.000Z</published>
+    <updated>2017-03-05T06:26:24.890Z</updated>
+    
+    <content type="html"><![CDATA[<p>下午看文献的时候，感觉到自己文献阅读量确实太少，精读过的英文文献，可能连三十篇都不到。不过转念一想：难道看文献一定是多多益善吗？怎样才能看一篇文献相当于看十篇文献呢？换句话说，怎样提高看文献的效果？</p>
+<p>很多人都关心看文献的效率，其实更重要的是效果。效率和效果是有区别的。效率，指的是速度；效果，指的是收获。看文献速度快、文献阅读量大，不代表水平就高。有人可能看了大量文献，却收获不大。既没有学到多少知识，也不能提出多少idea。</p>
+<p>所以，在回家的路上，一边骑自行车，一边就思考这个问题：看文献怎样才能以一当十呢？想到一些方法，简略地写下来，算是列一个提纲。</p>
+<p><font color="blue">选择地读。 </font>选择那些重要文献、经典文献、和自己课题密切相关的文献仔细阅读。</p>
+<p><font color="blue">仔细地读。 </font>如果是高质量的文献，就一定要精读才能获得最高“性价比”。性价比，指的是阅读时间/收获大小。看一篇文献，随着投入时间的增长，性价比先上升，然后下降。也就是说，粗略地看看，收获不大；看的太久，收获也不会和时间投入呈正比。所以，要仔细读几遍，这时候的性价比是最高的。</p>
+<p><font color="blue">反复地读。 </font>好的文献，看了一遍后不能束之高阁，而应该定期复习。</p>
+<p><font color="blue">比较着读。 </font>一个类似的研究课题，一篇发表在nature，cell，science这些顶级期刊上，一篇发表在普通期刊上，二者有哪些区别？同一个研究领域，牛人研究哪个问题，普通的研究人员研究哪个问题，为什么？</p>
+<p><font color="blue">带着问题读。</font>带着问题读，总能有所收获。而且，文章总是解决一个问题，同时提出了更多新的问题。读完一篇文献后，要问自己：本文解决了什么问题？提出了哪些新的问题？作者的结论可以做其它的解释吗？等等。</p>
+<p><font color="blue">读后做总结。 </font>读完之后，建立一个word文档，写总结。先以一句话总结文章，再以两三段话总结文章。然后，总结自己从本文中学到哪些东西，分要点列出来，要写得一清二楚。再之后，总结自己对本文的评价：做得好的有哪些？做得不好的有哪些？对自己有哪些启发？自己想到哪些idea等等。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下午看文献的时候，感觉到自己文献阅读量确实太少，精读过的英文文献，可能连三十篇都不到。不过转念一想：难道看文献一定是多多益善吗？怎样才能看一篇文献相当于看十篇文献呢？换句话说，怎样提高看文献的效果？&lt;/p&gt;
+&lt;p&gt;很多人都关心看文献的效率，其实更重要的是效果。效率和效果是有
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>学术(三)</title>
@@ -897,33 +929,6 @@
     
     
       <category term="matlab" scheme="http://hxbbing.github.io/tags/matlab/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>感想一</title>
-    <link href="http://hxbbing.github.io/2016/08/16/%E6%84%9F%E6%83%B3%E4%B8%80/"/>
-    <id>http://hxbbing.github.io/2016/08/16/感想一/</id>
-    <published>2016-08-16T08:37:05.000Z</published>
-    <updated>2016-08-16T08:58:40.073Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="机会多了，选择多了"><a href="#机会多了，选择多了" class="headerlink" title="机会多了，选择多了"></a>机会多了，选择多了</h1><hr>
-<pre><code>**“互联网+”已经诱惑一批高学历人才走向低门槛行业。当然，他们不会和前辈一样因循守旧，他们要做的是通过互联网推动农业、制造业等传统产业焕发新生机。与此同时，这些高学历年轻人自己可能都没意识到，他们也在改变人们心中固有的职业等级。某名校生成了某村销售总监、某博士开了家面包店等等故事会越来越多，多到水波不兴，多到北大“屠夫”曾掀起的热议成为上古传说。**
-</code></pre><hr>
-<pre><code>**许智宏先生说得没错。不一定学什么干什么，才是学以致用。很多人毕业多年后，发现因为久不应用，自己连初中的数学题都不会做了，是不是就意味着中学数学白学了？显然并非如此。因为我们在学校不仅要学习知识，更要在学习知识的过程中，掌握思维方法、培养独立思考的能力。如同篮球队员平日里练习蛙跳，不是上场比赛时要用蛙跳，而是通过蛙跳锻炼腿部肌肉，提升上赛场用得着的弹跳力。卖猪肉时的确不会用到诸子百家，但是学中文的陆步轩后来写出了《猪肉营销学》，一般“屠夫”恐怕很难做到。学习本来就是举一反三、触类旁通，只要肯用心，北大学生卖猪肉，也能卖出不同寻常的“北大范儿”。**
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;机会多了，选择多了&quot;&gt;&lt;a href=&quot;#机会多了，选择多了&quot; class=&quot;headerlink&quot; title=&quot;机会多了，选择多了&quot;&gt;&lt;/a&gt;机会多了，选择多了&lt;/h1&gt;&lt;hr&gt;
-&lt;pre&gt;&lt;code&gt;**“互联网+”已经诱惑一批高学历人才走向低门槛行业。当然
-    
-    </summary>
-    
-      <category term="感想" scheme="http://hxbbing.github.io/categories/%E6%84%9F%E6%83%B3/"/>
-    
-    
-      <category term="感想" scheme="http://hxbbing.github.io/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
