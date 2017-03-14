@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-03-12T01:57:49.859Z</updated>
+  <updated>2017-03-14T08:28:42.772Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>latex和matlab学习的一些参考</title>
+    <link href="http://hxbbing.github.io/2017/03/14/%E5%AD%A6%E6%9C%AF-%E4%B8%83/"/>
+    <id>http://hxbbing.github.io/2017/03/14/学术-七/</id>
+    <published>2017-03-14T08:16:58.000Z</published>
+    <updated>2017-03-14T08:28:42.772Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近查了一些内容，觉得蛮有用的，就记下来了，以备不时之需：</p>
+<p>一、matlab使用技巧：</p>
+<p><a href="http://blog.csdn.net/lqhbupt/article/details/20292113" title="matlab使用技巧" target="_blank" rel="external">http://blog.csdn.net/lqhbupt/article/details/20292113</a></p>
+<p>二、 均方误差(MSE)和均方根误差(RMSE)和平均绝对误差(MAE)</p>
+<p><a href="http://blog.csdn.net/reallocing1/article/details/56292877" title=" 均方误差(MSE)和均方根误差(RMSE)和平均绝对误差(MAE)" target="_blank" rel="external">http://blog.csdn.net/reallocing1/article/details/56292877</a></p>
+<p>三、LaTeX文档插入图片的几种常用方法</p>
+<p><a href="http://blog.csdn.net/shenlan211314/article/details/6251776" title="LaTeX文档插入图片的几种常用方法" target="_blank" rel="external">http://blog.csdn.net/shenlan211314/article/details/6251776</a></p>
+<p>四、欧氏距离与马氏距离</p>
+<p><a href="http://blog.csdn.net/u010167269/article/details/51627338?_t_t_t=0.0028043033089488745" title="欧氏距离与马氏距离" target="_blank" rel="external">http://blog.csdn.net/u010167269/article/details/51627338?_t_t_t=0.0028043033089488745</a></p>
+<p><a href="https://cn.mathworks.com/help/stats/mahal.html?s_tid=gn_loc_drop" title="马氏距离" target="_blank" rel="external">https://cn.mathworks.com/help/stats/mahal.html?s_tid=gn_loc_drop</a></p>
+<p>五、机器学习中常见的损失函数</p>
+<p><a href="http://blog.csdn.net/heyongluoyao8/article/details/52462400" title="机器学习中常见的损失函数" target="_blank" rel="external">http://blog.csdn.net/heyongluoyao8/article/details/52462400</a></p>
+<p><a href="http://blog.csdn.net/rosenor1/article/details/52302217" title="机器学习中的损失函数" target="_blank" rel="external">http://blog.csdn.net/rosenor1/article/details/52302217</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近查了一些内容，觉得蛮有用的，就记下来了，以备不时之需：&lt;/p&gt;
+&lt;p&gt;一、matlab使用技巧：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lqhbupt/article/details/20292113&quot; title=&quot;matlab使用
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>硕博连读or先读硕士？</title>
@@ -938,38 +975,6 @@
     <summary type="html">
     
       &lt;p&gt;几种论文类型的区别，以下是我整理总结的：&lt;br&gt;
-    
-    </summary>
-    
-      <category term="科研" scheme="http://hxbbing.github.io/categories/%E7%A7%91%E7%A0%94/"/>
-    
-    
-      <category term="科研" scheme="http://hxbbing.github.io/tags/%E7%A7%91%E7%A0%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>怎么才能看懂计算机论文中的数学公式?</title>
-    <link href="http://hxbbing.github.io/2016/09/09/%E6%80%8E%E4%B9%88%E6%89%8D%E8%83%BD%E7%9C%8B%E6%87%82%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AE%BA%E6%96%87%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
-    <id>http://hxbbing.github.io/2016/09/09/怎么才能看懂计算机论文中的数学公式/</id>
-    <published>2016-09-09T05:33:38.000Z</published>
-    <updated>2016-10-22T14:00:33.307Z</updated>
-    
-    <content type="html"><![CDATA[<p>一篇好论文能发表的一个前提是，该领域的研究生可以根据这篇论文提供的信息去再现论文中所做的实验（算法）。</p>
-<p>根据这个前提，如果你遇到了看不懂的名词或公式，论文中必定是会给出相应的参考文献的，你只要去看参考文献，或看参考文献的参考文献，或参考文献的…的参考文献就可以了。</p>
-<p>反过来，如果论文没有为你看不懂的名词或公式给出参考文献，那么有两种可能性：<br>你还不是合格的研究生；<br>你看的论文不是一篇好论文。<br>如果属于1这种情况，其实这很正常，因为你才研一，建议你先找课本补习一下；如果属于2这种情况，这也很正常，建议你换一些更好的论文来读，特别是对于初学者，找好论文看更为重要。</p>
-<hr>
-<p>首先，研一的学生看不懂论文非常正常，继续认真学就是了。视觉方向确实也是对数学要求比较高的一个方向。大致上，这个方向的学习顺序应该是这样的：</p>
-<p>最新论文看不懂的话去看经典论文（基本看引用数就知道经典程度了）；</p>
-<p>经典论文看不懂的话去看计算机视觉的教科书（就那么几本，知乎上有人问过）；</p>
-<p>视觉教科书看不懂的话去看数学的教科书（一般情况下集中在代数和统计方向，有时候也用微积分）；</p>
-<p>数学的教科书还看不懂就没有后路了。这是一个坎，想在这个领域做东西的话，必须花时间在数学基础上，没有捷径。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一篇好论文能发表的一个前提是，该领域的研究生可以根据这篇论文提供的信息去再现论文中所做的实验（算法）。&lt;/p&gt;
-&lt;p&gt;根据这个前提，如果你遇到了看不懂的名词或公式，论文中必定是会给出相应的参考文献的，你只要去看参考文献，或看参考文献的参考文献，或参考文献的…的参考文献就可以
     
     </summary>
     
