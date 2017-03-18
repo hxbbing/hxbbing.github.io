@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-03-14T08:28:42.772Z</updated>
+  <updated>2017-03-18T12:01:50.876Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>latex学习系列</title>
+    <link href="http://hxbbing.github.io/2017/03/18/%E5%AD%A6%E6%9C%AF-%E5%85%AB/"/>
+    <id>http://hxbbing.github.io/2017/03/18/学术-八/</id>
+    <published>2017-03-18T11:52:41.000Z</published>
+    <updated>2017-03-18T12:01:50.876Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考以下内容：</p>
+<p>latex自定义bst文件：</p>
+<p><a href="http://blog.csdn.net/tinkle181129/article/details/49822171" title="latex自定义bst文件" target="_blank" rel="external">http://blog.csdn.net/tinkle181129/article/details/49822171</a></p>
+<p><a href="http://http://jingyan.baidu.com/article/1974b289791b9ff4b1f77419.html" title="latex自定义bst文件" target="_blank" rel="external">http://http://jingyan.baidu.com/article/1974b289791b9ff4b1f77419.html</a></p>
+<p>LaTeX基础知识：</p>
+<p><a href="http://blog.csdn.net/lishoubox/article/details/6783726" title="LaTeX基础知识" target="_blank" rel="external">http://blog.csdn.net/lishoubox/article/details/6783726</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;参考以下内容：&lt;/p&gt;
+&lt;p&gt;latex自定义bst文件：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/tinkle181129/article/details/49822171&quot; title=&quot;latex自定义bst文件&quot; target=&quot;_
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>latex和matlab学习的一些参考</title>
@@ -942,46 +972,6 @@
     
     
       <category term="个人计划" scheme="http://hxbbing.github.io/tags/%E4%B8%AA%E4%BA%BA%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>论文类型Journal、magazine、transaction、letter等的区别</title>
-    <link href="http://hxbbing.github.io/2016/09/18/%E8%AE%BA%E6%96%87%E7%B1%BB%E5%9E%8BJournal%E3%80%81magazine%E3%80%81transaction%E3%80%81letter%E7%AD%89%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-    <id>http://hxbbing.github.io/2016/09/18/论文类型Journal、magazine、transaction、letter等的区别/</id>
-    <published>2016-09-18T12:34:02.000Z</published>
-    <updated>2016-10-22T14:02:53.225Z</updated>
-    
-    <content type="html"><![CDATA[<p>几种论文类型的区别，以下是我整理总结的：<br><a id="more"></a><br>一、主要分类</p>
-<font color="red" size="3" face="“黑体”"><br>Journal期刊：刊登关于某特殊主题的文章的期刊<br><br>magazine杂志：综合性内容的期刊<br><br>transactions(学会等的)议事录,会报,会刊<br><br>proceedings记录, 会议录; 年[学]报; (科学文献)汇编</font>
-
-<p>二、IEEE分类<br>IEEE的paper大体分为3类，letter,magazine,journal/transaction.</p>
-<font color="red" size="3" face="“黑体”">IEEE letter:</font>属于快报形式，一般发表最新的研究成果，文章要求短小，理论推导要求不高。<br><br>IEEE <font color="red" size="3" face="“黑体”">Magazine</font>:这才是属于杂志类，一般要求用文字和图表来表述些最新研究成果，不允许有过多的公式推导<br><br>IEEE IEEE <font color="red" size="3" face="“黑体”">Jour/Trans</font>:这两个属于同一类，期刊杂志，但两者面向的读者和表达方式上略有不同。两者都需要有很大的创新点，和比较详细的公式推导。<br><br>    Trans:具体到一个相对较细的专业方向上，如IEEE Trans. Sign.Proc.。<br><br>    而jour:面向的读者群却更加广泛,如IEEE J-SAC,所以jour需要对背景知识有更加全面的介绍。<br>    虽然jour没有trans.的专注度高，但是其理论深度的要求也很高，而且其影响因子往往远远高于Trans.<br>三、其他说明<br><br>1 仅从目标来说， Transaction, Journal, Letter 仅仅是名称不同而已 。以 IEEE协会的出版物为例<br>The mission of IEEE Transactions, Journals, and Letters is to provide archival publications that are of lasting value to the engineering community. These periodicals provide the profession with content that has been peer-reviewed and published with the objective of creating an historical account of progress in the field.<br><br>两个重点： 1）是为了提供一个保存有长久价值的知识的出版品；2） 经过 peer-review 的程序 。<br><br>2 但是如果要更细分這三种出版品的話, 先以 IEEE Power Electronics Letters 和 IEEE Transactions on Power Electronics 为例说明 Letter 和 Transaction的不同：<br><br> 1）IEEE Power Electronics Letters<br><br> This electronic publication will be devoted to the rapid publication of short manuscripts of archival value in the general area of power electronics. Power electronics is the underlying technology for a vast portion of electrical energy processing.<br><br> 2）IEEE Transactions on Power Electronics<br><br> The development of power electronics technology. This technology encompasses the effective use of electronic components, the application of circuit theory and design techniques, and the development of analytical tools toward efficient electronic conversion, control, and conditioning of electric power.<br><br>可以看到的是, <font color="red" size="3" face="“黑体”">Letter 的内容通常是 Short Paper, 有即时性的, 而 Transaction 收录的内容则没有这个在时间上的特性.</font>
-
-<p>3 至于<font color="red" size="3" face="“黑体”">Journal 的內容, 是属于比较难的。</font>Journal 所收录的內容介于Transaction 及 Letter之间,可收录 Short Paper 也可收录 Regular Paper. 以 IEEE Journal of Quantum Electronics 为例：</p>
-<p>IEEE Journal of Quantum Electronics is published monthly.It comprises original contributions, both regular papers and letters, in the broad field of the science and technology of quantum electronics of either a device-, subject-, or system-oriented nature. IEEE Lasers and Electro-Optics Society Field of Interest Lasers, optical devices, optical fibers and associated lightwave technology and their application in systems and subsystems, in which the quantum electronic devices are key elements. The Society is concerned with the research,development, design, manufacture, and applications of materials, devices and systems, and with the various scientific and technological activities which contribute to the useful expansion of the field of quantum electronics and applications.</p>
-<p>除了 IEEE, 在通信科学领域另一个重量级学会 ACM,对于命名一个 New Publication 则有下列建议 ：</p>
-<p>Proposed name of new publication</p>
-<p>If this is a peer-reviewed journal it will probably be called ACM<br>Transactions on XXX (although there are some exceptions).Other ACM publications must use other names. You may propose a single name or several possible names for the Board to consider.</p>
-<p>在选择名字时还要考虑到它的类型 ：</p>
-<p>Format and type of publication</p>
-<p>Are you proposing a peer-reviewed journal, a magazine, an online newsletter, or some other type of publication? Are you proposing a print publication or an online-only publication? How frequently will this publication publish new articles? How long will a typical article be? How many articles will be included in each issue? Will this publication include something other than traditional articles (software, multimedia, message boards, etc.)</p>
-<p>另外, 在其中有这么一句话：</p>
-<p>Please provide an overview of the proposed editorial process.<br>Will articles go through a full refereeing process, or a less<br>rigorous review process (transactions must use a refereeing process)</p>
-<p>这就说明了<font color="red" size="3" face="“黑体”">Transaction必须经过Refereeing 才可以 。</font></p>
-<p>如果有人对其他形式的 publication 如 magazine, newsletter, proceeding 有兴趣 IEEE 的 IEEE Policy 6.6 倒是有一些描述可供參考.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;几种论文类型的区别，以下是我整理总结的：&lt;br&gt;
-    
-    </summary>
-    
-      <category term="科研" scheme="http://hxbbing.github.io/categories/%E7%A7%91%E7%A0%94/"/>
-    
-    
-      <category term="科研" scheme="http://hxbbing.github.io/tags/%E7%A7%91%E7%A0%94/"/>
     
   </entry>
   
