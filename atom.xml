@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-04-08T12:29:04.916Z</updated>
+  <updated>2017-04-09T07:05:54.278Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装linux之后的一些配置</title>
+    <link href="http://hxbbing.github.io/2017/04/09/%E5%AD%A6%E6%9C%AF-%E5%8D%81%E4%BA%94/"/>
+    <id>http://hxbbing.github.io/2017/04/09/学术-十五/</id>
+    <published>2017-04-09T06:57:00.000Z</published>
+    <updated>2017-04-09T07:05:54.278Z</updated>
+    
+    <content type="html"><![CDATA[<p>十招让Ubuntu 16.04用起来更得心应手：<br><a href="http://www.linuxidc.com/Linux/2016-06/132238.htm" title="十招让Ubuntu 16.04用起来更得心应手" target="_blank" rel="external">http://www.linuxidc.com/Linux/2016-06/132238.htm</a></p>
+<p>ubuntu16.04上配置mentohust：<br><a href="http://blog.csdn.net/baidu_24256693/article/details/56008962" title="ubuntu16.04上配置mentohust" target="_blank" rel="external">http://blog.csdn.net/baidu_24256693/article/details/56008962</a></p>
+<p><a href="http://blog.csdn.net/linygood/article/details/8817324" title="Linux下锐捷的配置" target="_blank" rel="external">http://blog.csdn.net/linygood/article/details/8817324</a></p>
+<p>如何修改Win7系统启动菜单的等待时间：<br><a href="https://jingyan.baidu.com/article/37bce2be75aaa91002f3a2c4.html" title="如何修改Win7系统启动菜单的等待时间" target="_blank" rel="external">https://jingyan.baidu.com/article/37bce2be75aaa91002f3a2c4.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;十招让Ubuntu 16.04用起来更得心应手：&lt;br&gt;&lt;a href=&quot;http://www.linuxidc.com/Linux/2016-06/132238.htm&quot; title=&quot;十招让Ubuntu 16.04用起来更得心应手&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+      <category term="linux" scheme="http://hxbbing.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://hxbbing.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>安装win7和linux双系统</title>
@@ -973,37 +999,6 @@
     
     
       <category term="感想" scheme="http://hxbbing.github.io/tags/%E6%84%9F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务器系列一</title>
-    <link href="http://hxbbing.github.io/2016/10/23/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97%E4%B8%80/"/>
-    <id>http://hxbbing.github.io/2016/10/23/服务器系列一/</id>
-    <published>2016-10-23T11:16:14.000Z</published>
-    <updated>2016-10-23T11:59:19.285Z</updated>
-    
-    <content type="html"><![CDATA[<p>下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、</p>
-<p>首先连接到阿里云服务器，操作系统Windows Server 2012 R2</p>
-<p>进入mongodb官网<a href="https://www.mongodb.com/" target="_blank" rel="external">https://www.mongodb.com/</a>，死活下不下来.msi的，可能是服务器的安全级别比较高，网上好像说要下.zip的，但我感觉跟之前的版本不一样，怎么都下不下来。我就想安装ftp，先下到本地，然后传上去，百度了半天ftp还是安装失败，沮丧、、这个时候我就想到能不能下载个qq从外面传进去，尼玛没想到qq也不能用还弄成了保护模式，还要申诉找回密码。</p>
-<p>最后想到硬盘共享，又找到一篇文章<a href="http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i" target="_blank" rel="external">http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i</a>于是把mongodb-win32-x86_64-2008plus-ssl-3.2.10-signed.msi下载到d盘，本地资源勾选了d盘，远程连接之后（用户名Administrator 密码是你服务器开机密码），我把它拷贝到了c盘，反正服务器就一个盘。</p>
-<p>接下来就参考了这篇文章：<a href="http://blog.csdn.net/qq_16313365/article/details/52241357" target="_blank" rel="external">http://blog.csdn.net/qq_16313365/article/details/52241357</a> 还有系列（三）一步一步来就可以啦。</p>
-<p>注意：目录有空格加双引号<br>将mongodb的bin目录添加到Path中。</p>
-<p>最后在cmd中输入mongo，显示connecting to: test</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、&lt;/p&gt;
-&lt;p&gt;首先连接到阿里云服务器，操作系统Windows Server 2012 R2&lt;/p&gt;
-&lt;p&gt;进入mongodb官网&lt;a href=&quot;https://www.mongodb.com/&quot;
-    
-    </summary>
-    
-      <category term="服务器系列" scheme="http://hxbbing.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="服务器系列" scheme="http://hxbbing.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%B3%BB%E5%88%97/"/>
     
   </entry>
   
