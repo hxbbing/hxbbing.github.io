@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-04-10T07:49:53.297Z</updated>
+  <updated>2017-04-12T08:29:28.921Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机器学习之tensorflow</title>
+    <link href="http://hxbbing.github.io/2017/04/12/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8Btensorflow/"/>
+    <id>http://hxbbing.github.io/2017/04/12/机器学习之tensorflow/</id>
+    <published>2017-04-12T08:06:45.000Z</published>
+    <updated>2017-04-12T08:29:28.921Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近刚装上ubuntu 16.04，想玩一下tensorflow。系统自带python 2.7版本。<br>安装：</p>
+<p>安装tensorflow的最简单方法(Ubuntu 16.04)<br><a href="http://blog.csdn.net/shenquanyue/article/details/57075075" title="安装tensorflow的最简单方法(Ubuntu 16.04)" target="_blank" rel="external">http://blog.csdn.net/shenquanyue/article/details/57075075</a></p>
+<p>运行 TensorFlow</p>
+<p>打开一个 python 终端:</p>
+<p><code>$ python</code></p>
+<p><code>&gt;&gt;&gt; import tensorflow as tf</code></p>
+<p><code>&gt;&gt;&gt; hello = tf.constant(&#39;Hello, TensorFlow!&#39;)</code></p>
+<p><code>&gt;&gt;&gt; sess = tf.Session()</code></p>
+<p><code>&gt;&gt;&gt; print sess.run(hello)</code></p>
+<p>Hello, TensorFlow!</p>
+<p><code>&gt;&gt;&gt; a = tf.constant(10)</code></p>
+<p><code>&gt;&gt;&gt; b = tf.constant(32)</code></p>
+<p><code>&gt;&gt;&gt; print sess.run(a+b)</code></p>
+<p>42</p>
+<p><code>&gt;&gt;&gt;</code></p>
+<p><strong>查看tf版本及路径：</strong></p>
+<p><code>import tensorflow as tf</code></p>
+<p><code>tf.__version__</code></p>
+<p>__看着是一个下划线，实际上是两个下划线，中间有空格</p>
+<p><code>tf.__path__</code></p>
+<p><strong>ubuntu16.04的Anaconda下的tensorflow安装py3.5</strong></p>
+<p><a href="http://www.cnblogs.com/MnsterLu/p/5846702.html" title="ubuntu16.04的Anaconda下的tensorflow安装py3.5" target="_blank" rel="external">http://www.cnblogs.com/MnsterLu/p/5846702.html</a></p>
+<p><a href="http://blog.csdn.net/zhdgk19871218/article/details/46502637" title="ubuntu下安装anaconda" target="_blank" rel="external">http://blog.csdn.net/zhdgk19871218/article/details/46502637</a></p>
+<p>安装与卸载 Anaconda3 in ubuntu  :<br><a href="http://wuguangbin1230.blog.163.com/blog/static/6152983520168121105490/" title="安装与卸载 Anaconda3 in ubuntu  " target="_blank" rel="external">http://wuguangbin1230.blog.163.com/blog/static/6152983520168121105490/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近刚装上ubuntu 16.04，想玩一下tensorflow。系统自带python 2.7版本。&lt;br&gt;安装：&lt;/p&gt;
+&lt;p&gt;安装tensorflow的最简单方法(Ubuntu 16.04)&lt;br&gt;&lt;a href=&quot;http://blog.csdn.net/shenqu
+    
+    </summary>
+    
+      <category term="机器学习" scheme="http://hxbbing.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="机器学习" scheme="http://hxbbing.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown学习笔记</title>
@@ -872,83 +919,6 @@
     
     
       <category term="Ubuntu" scheme="http://hxbbing.github.io/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>喜欢的歌(一)</title>
-    <link href="http://hxbbing.github.io/2016/12/21/%E5%96%9C%E6%AC%A2%E7%9A%84%E6%AD%8C-%E4%B8%80/"/>
-    <id>http://hxbbing.github.io/2016/12/21/喜欢的歌-一/</id>
-    <published>2016-12-21T13:56:42.000Z</published>
-    <updated>2016-12-21T14:08:39.766Z</updated>
-    
-    <content type="html"><![CDATA[<p>充满鲜花的世界到底在哪里 </p>
-<p>如果它真的存在那么我一定会去</p>
-<p>我想在那里最高的山峰矗立 </p>
-<p>不在乎它是不是悬崖峭壁<br><a id="more"></a><br>用力活着用力爱哪怕肝脑涂地 </p>
-<p>不求任何人满意只要对得起自己</p>
-<p>关于理想我从来没选择放弃　</p>
-<p>即使在灰头土脸的日子里</p>
-<p>也许我没有天分　　</p>
-<p>但我有梦的天真</p>
-<p>我将会去证明用我的一生　　</p>
-<p>也许我手比脚笨</p>
-<p>但我愿不停探寻　　</p>
-<p>付出所有的青春不留遗憾</p>
-<p>向前跑 迎着冷眼和嘲笑
-　　</p>
-<p>生命的广阔不历经磨难怎能感到</p>
-<p>命运它无法让我们跪地求饶</p>
-<p>就算鲜血洒满了怀抱</p>
-<p>继续跑 带着赤子的骄傲
-　</p>
-<p>生命的闪耀不坚持到底怎能看到</p>
-<p>与其苟延残喘不如纵情燃烧吧</p>
-<p>有一天会再发芽</p>
-<p>未来迷人绚烂总在向我召唤
-　　</p>
-<p>哪怕只有痛苦作伴也要勇往直前
-　　</p>
-<p>我想在那里最蓝的大海扬帆</p>
-<p>绝不管自己能不能回还</p>
-<p>失败后郁郁寡欢
-　　</p>
-<p>那是懦夫的表现
-　　</p>
-<p>只要一息尚存请握紧双拳
-　　</p>
-<p>在天色破晓之前
-　　</p>
-<p>我们要更加勇敢
-　　</p>
-<p>等待日出时最耀眼的瞬间</p>
-<p>向前跑 迎着冷眼和嘲笑
-　　</p>
-<p>生命的广阔不历经磨难怎能感到
-　　</p>
-<p>命运它无法让我们跪地求饶
-　　</p>
-<p>就算鲜血洒满了怀抱</p>
-<p>继续跑 带着赤子的骄傲</p>
-<p>生命的闪耀不坚持到底怎能看到</p>
-<p>与其苟延残喘不如纵情燃烧</p>
-<p>为了心中的美好</p>
-<p>不妥协直到变老</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;充满鲜花的世界到底在哪里 &lt;/p&gt;
-&lt;p&gt;如果它真的存在那么我一定会去&lt;/p&gt;
-&lt;p&gt;我想在那里最高的山峰矗立 &lt;/p&gt;
-&lt;p&gt;不在乎它是不是悬崖峭壁&lt;br&gt;
-    
-    </summary>
-    
-      <category term="感想" scheme="http://hxbbing.github.io/categories/%E6%84%9F%E6%83%B3/"/>
-    
-    
-      <category term="感想" scheme="http://hxbbing.github.io/tags/%E6%84%9F%E6%83%B3/"/>
     
   </entry>
   
