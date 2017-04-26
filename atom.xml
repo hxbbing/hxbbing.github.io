@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-04-21T14:21:28.198Z</updated>
+  <updated>2017-04-26T02:06:34.750Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LaTex学习总结</title>
+    <link href="http://hxbbing.github.io/2017/04/26/LaTex%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    <id>http://hxbbing.github.io/2017/04/26/LaTex学习总结/</id>
+    <published>2017-04-26T01:59:08.000Z</published>
+    <updated>2017-04-26T02:06:34.750Z</updated>
+    
+    <content type="html"><![CDATA[<p> Latex中插入.eps图片遇到的问题 (Unknown graphics extension:.eps) ：<br><a href="http://blog.csdn.net/yanxiangtianji/article/details/26385939" title=" Latex中插入.eps图片遇到的问题 (Unknown graphics extension:.eps) " target="_blank" rel="external">http://blog.csdn.net/yanxiangtianji/article/details/26385939</a></p>
+<p>LaTeX各种表格 ：<br><a href="http://blog.csdn.net/golden1314521/article/details/40891515" title="LaTeX各种表格 " target="_blank" rel="external">http://blog.csdn.net/golden1314521/article/details/40891515</a></p>
+<p>TeX-换行换页与段落命令：<br><a href="http://blog.csdn.net/virhuiai/article/details/7539988" title="TeX-换行换页与段落命令" target="_blank" rel="external">http://blog.csdn.net/virhuiai/article/details/7539988</a></p>
+<p>LaTex简介：<br><a href="http://www.360doc.com/content/13/0622/11/12873806_294708860.shtml" title="LaTex简介" target="_blank" rel="external">http://www.360doc.com/content/13/0622/11/12873806_294708860.shtml</a></p>
+<p>在LaTex中的注释有3种:</p>
+<ol>
+<li><p>用%注释一行文字, 在%后的文字都不予编译;</p>
+</li>
+<li><p>用\iffalse …. \fi 包含一段文字, 被包含的文字被注释掉了;</p>
+</li>
+<li><p>用\begin{comment} … \end{comment} 包含被注释的文字, 但是需要在引言区包括相应的宏包, 即 \usepackage{verbatim}.</p>
+</li>
+</ol>
+<p>\textit 斜体</p>
+<p>\texttt  \textbf</p>
+<p>\char’134</p>
+<p>\secit 标题斜体字印刷</p>
+<p>\subsecit</p>
+<p>\begin{math}…\end{math}</p>
+<p>\begin{equation}…\end{equation}</p>
+<p>\begin{displaymath}…\end{displaymath}unnumbered equation</p>
+<p>\begin{table<em>}…\end{table</em>}浮动表格</p>
+<p>\begin{figure<em>}…\end{figure</em>}浮动图片</p>
+<p>\vskip</p>
+<p>\linebreak这条命令让LATEX中断当前行并将当前行已有文本拉长直至页边。</p>
+<p>\newtheorem{theorem}{Theorem}<br>\begin{theorem}\end{theorem}定理</p>
+<p>\newdef{definition}{Definition}<br>\begin{definition}\end{definition}定义</p>
+<p>\begin{proof}…\end{proof}证明</p>
+<p>\left[左括号 \cdot点乘</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; Latex中插入.eps图片遇到的问题 (Unknown graphics extension:.eps) ：&lt;br&gt;&lt;a href=&quot;http://blog.csdn.net/yanxiangtianji/article/details/26385939&quot; title=
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>学术之路</title>
@@ -993,30 +1044,6 @@
     
       &lt;p&gt;#&lt;font color=&quot;red&quot;&gt;写SCI论文的必备套路：准七条&lt;/font&gt;  #&lt;/p&gt;
 &lt;font color=&quot;#4682B4&quot;&gt;&lt;br&gt;合格的排版&lt;br&gt;&lt;br&gt;一门编程语言&lt;br&gt;&lt;br&gt;一些的理论与数学化的描述&lt;br&gt;&lt;br&gt;专业化的术语与合格的分析结果&lt;
-    
-    </summary>
-    
-      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学术(一)</title>
-    <link href="http://hxbbing.github.io/2017/02/22/%E5%AD%A6%E6%9C%AF-%E4%B8%80/"/>
-    <id>http://hxbbing.github.io/2017/02/22/学术-一/</id>
-    <published>2017-02-22T14:10:56.000Z</published>
-    <updated>2017-02-22T14:12:38.543Z</updated>
-    
-    <content type="html"><![CDATA[<p>来学校一个多星期了，慢慢在调整，睡眠也好了，论文在修改，晚上看了恒大的比赛，大胜，最近心情也不错，希望越来越好吧~~~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;来学校一个多星期了，慢慢在调整，睡眠也好了，论文在修改，晚上看了恒大的比赛，大胜，最近心情也不错，希望越来越好吧~~~&lt;/p&gt;
-
     
     </summary>
     
