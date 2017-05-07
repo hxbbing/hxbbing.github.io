@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-04-26T02:06:34.750Z</updated>
+  <updated>2017-05-07T12:27:29.580Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux常见问题</title>
+    <link href="http://hxbbing.github.io/2017/05/07/linux%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://hxbbing.github.io/2017/05/07/linux常见问题/</id>
+    <published>2017-05-07T12:19:03.000Z</published>
+    <updated>2017-05-07T12:27:29.580Z</updated>
+    
+    <content type="html"><![CDATA[<p>双系统启动Ubuntu时出现error: file故障解决方法:<br><a href="http://www.xitongbuluo.com/jiaocheng/16730.html" title="双系统启动Ubuntu时出现error: file故障解决方法" target="_blank" rel="external">http://www.xitongbuluo.com/jiaocheng/16730.html</a></p>
+<p><a href="http://www.linuxidc.com/Linux/2016-12/138018.htm" target="_blank" rel="external">http://www.linuxidc.com/Linux/2016-12/138018.htm</a><br>第6步非常关键</p>
+<p>ubuntu16.04 LTS解决/boot空间不足：</p>
+<p><a href="http://blog.csdn.net/WxyangID/article/details/53097208" title="ubuntu16.04 LTS解决/boot空间不足" target="_blank" rel="external">http://blog.csdn.net/WxyangID/article/details/53097208</a></p>
+<p>Ubuntu 15.04系统怎么清理的系统垃圾文件？<br><a href="http://www.jb51.net/os/Ubuntu/311761.html" title="Ubuntu 15.04系统怎么清理的系统垃圾文件？" target="_blank" rel="external">http://www.jb51.net/os/Ubuntu/311761.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;双系统启动Ubuntu时出现error: file故障解决方法:&lt;br&gt;&lt;a href=&quot;http://www.xitongbuluo.com/jiaocheng/16730.html&quot; title=&quot;双系统启动Ubuntu时出现error: file故障解决方法&quot; tar
+    
+    </summary>
+    
+      <category term="linux" scheme="http://hxbbing.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://hxbbing.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>LaTex学习总结</title>
@@ -974,76 +1001,6 @@
     
       &lt;p&gt;时不时有学生向我咨询关于师生关系的一些问题，如我与导师闹矛盾了，我把导师得罪了，导师不理我了，导师不管我了，我该怎么办？我以后的日子我该如何过？等等。&lt;/p&gt;
 &lt;p&gt;师生之间一旦产生了矛盾，一般认为学生是弱势方，所以心里惴惴不安的往往是学生。学生在乎师生关系是个好事，如果什
-    
-    </summary>
-    
-      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学术(二)</title>
-    <link href="http://hxbbing.github.io/2017/02/25/%E5%AD%A6%E6%9C%AF-%E4%BA%8C/"/>
-    <id>http://hxbbing.github.io/2017/02/25/学术-二/</id>
-    <published>2017-02-25T12:07:36.000Z</published>
-    <updated>2017-02-25T12:25:31.898Z</updated>
-    
-    <content type="html"><![CDATA[<p>#<font color="red">写SCI论文的必备套路：准七条</font>  #</p>
-<font color="#4682B4"><br>合格的排版<br><br>一门编程语言<br><br>一些的理论与数学化的描述<br><br>专业化的术语与合格的分析结果<br><br>模型图及结果的绘制和整理<br><br>数据库、手册、已有文献的实验<br><br>无错误的英语表述<br></font>
-
-<h2 id="优秀论文结构范例："><a href="#优秀论文结构范例：" class="headerlink" title="优秀论文结构范例： "></a><font color="red">优秀论文结构范例： </font></h2><p>###<font color="blue">1、Abstract—— 对自己工作及其贡献的总结</font>###</p>
-<p>a）阐述问题；</p>
-<p>b）说明自己的解决方案和结果。</p>
-<p>###<font color="blue">2、Introduction——背景，以及文章的大纲</font>###</p>
-<p>a）题X是重要的；</p>
-<p>X问题很重要</p>
-<p>b）前人的工作A、B曾经研究过这个问题；</p>
-<p>A法</p>
-<p>B法</p>
-<p>c）A、B有一些缺陷</p>
-<p>A法只能求解特殊X问题，<br>B法原则上适用于所有各种缺陷分布，但是求解中遇到?问题</p>
-<p>d）我们提出了方法D；</p>
-<p>D，克服?问题，</p>
-<p>e）D的基本特征，和A、B进行比较；</p>
-<p>f）实验证明D比A、B优越；</p>
-<p>数值实验证明D达到A的精度，同时可以求解A不能处理的X问题。由于克服?问题，D的精度也大大提高。</p>
-<p>g）文章的基本结构，大纲。</p>
-<p>###<font color="blue">3、Previous Work——说明自己与前人的不同</font>###<br>a）将历史上前人的工作分成类别；</p>
-<p>b）对每项重要的历史工作进行简短的回顾(一到几句)，注意要回顾正确，抓住要点，避免歧义；</p>
-<p>c）和自己提出的工作进行比较；</p>
-<p>d）不要忽略前人的重要工作，要公正评价前人的工作，不要过于苛刻；</p>
-<p>e）强调自己的工作和前人工作的不同，最好举出各自适用例子。</p>
-<p>###<font color="blue">4、Our Work——描述自己的工作，可分成多个部分</font>###</p>
-<p>a）从读者角度阐明定义和表示法；</p>
-<p>b）提供算法的伪码，图解和相应解释；</p>
-<p>c）用设问的方式回答读者可能提出的潜在问题；</p>
-<p>d）复杂的冗长的证明和细节可以放在附录中，这里关键是把问题阐述清楚；</p>
-<p>e）特例和例外应该在脚注中给予说明。</p>
-<p>###<font color="blue">5、Experiments——验证提出的方法和思路</font>###<br>a）合理地设计实验（简洁的实验和详尽的实验步骤）；</p>
-<p>b）必要的比较，突出科学性；</p>
-<p>c）讨论，说明结果的意义；</p>
-<p>d）给出结论。</p>
-<p>###<font color="blue">6、Conclusion——总结、前景及结文</font>###</p>
-<p>a）快速简短的总结；</p>
-<p>b）未来工作的展望；</p>
-<p>c）结束全文。</p>
-<p>###<font color="blue">7、References——对相关重要背景文献的全面引用</font>###</p>
-<p>a）选择引文（众所周知的结论不必引用，其他人的工作要引用）；</p>
-<p>b）与前文保持一致。</p>
-<p>###<font color="blue">8、Others——致谢、附录、脚注。处理被拒</font>###</p>
-<p>1、理解被国际权威期刊拒稿是一件正常的事情(70%以上被拒)，保持良好心态。</p>
-<p>2、感谢编辑和Reviewer的意见和工作。</p>
-<p>3、询问副主编，自己可以怎样处理这篇论文最合适(重投/改投/撤回)。</p>
-<p>4、继续新的研究或补充修改后改投其他杂志。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#&lt;font color=&quot;red&quot;&gt;写SCI论文的必备套路：准七条&lt;/font&gt;  #&lt;/p&gt;
-&lt;font color=&quot;#4682B4&quot;&gt;&lt;br&gt;合格的排版&lt;br&gt;&lt;br&gt;一门编程语言&lt;br&gt;&lt;br&gt;一些的理论与数学化的描述&lt;br&gt;&lt;br&gt;专业化的术语与合格的分析结果&lt;
     
     </summary>
     
