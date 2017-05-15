@@ -77,7 +77,7 @@
     <link href="http://hxbbing.github.io/2017/04/26/LaTex%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     <id>http://hxbbing.github.io/2017/04/26/LaTex学习总结/</id>
     <published>2017-04-26T01:59:08.000Z</published>
-    <updated>2017-04-26T02:06:34.750Z</updated>
+    <updated>2017-05-15T07:46:48.075Z</updated>
     
     <content type="html"><![CDATA[<p> Latex中插入.eps图片遇到的问题 (Unknown graphics extension:.eps) ：<br><a href="http://blog.csdn.net/yanxiangtianji/article/details/26385939" title=" Latex中插入.eps图片遇到的问题 (Unknown graphics extension:.eps) " target="_blank" rel="external">http://blog.csdn.net/yanxiangtianji/article/details/26385939</a></p>
 <p>LaTeX各种表格 ：<br><a href="http://blog.csdn.net/golden1314521/article/details/40891515" title="LaTeX各种表格 " target="_blank" rel="external">http://blog.csdn.net/golden1314521/article/details/40891515</a></p>
@@ -108,6 +108,10 @@
 <p>\newdef{definition}{Definition}<br>\begin{definition}\end{definition}定义</p>
 <p>\begin{proof}…\end{proof}证明</p>
 <p>\left[左括号 \cdot点乘</p>
+<p>Latex写作会议论文中多位作者、机构的排版</p>
+<p><a href="http://blog.csdn.net/inter_xuxing/article/details/8124391" title="Latex写作会议论文中多位作者、机构的排版" target="_blank" rel="external">http://blog.csdn.net/inter_xuxing/article/details/8124391</a></p>
+<p>Latex作者单位的写法—AND 首页脚注 </p>
+<p><a href="http://blog.sina.com.cn/s/blog_6aee843a0100utai.html" title="Latex作者单位的写法—AND 首页脚注 " target="_blank" rel="external">http://blog.sina.com.cn/s/blog_6aee843a0100utai.html</a></p>
 ]]></content>
     
     <summary type="html">
