@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-05-29T03:24:00.921Z</updated>
+  <updated>2017-05-29T09:07:11.005Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu下配置SSH以支持putty登录</title>
+    <link href="http://hxbbing.github.io/2017/05/29/Ubuntu%E4%B8%8B%E9%85%8D%E7%BD%AESSH%E4%BB%A5%E6%94%AF%E6%8C%81putty%E7%99%BB%E5%BD%95/"/>
+    <id>http://hxbbing.github.io/2017/05/29/Ubuntu下配置SSH以支持putty登录/</id>
+    <published>2017-05-29T08:59:32.000Z</published>
+    <updated>2017-05-29T09:07:11.005Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Ubuntu安装SSH</p>
+<p>命令: # sudo apt-get install openssh-server</p>
+<p>2.确认sshserver是否安装好</p>
+<p>命令：ps -e | grep sshd</p>
+<p>3.启动SSH Server</p>
+<p>命令：#sudo /etc/init.d/ssh start</p>
+<p>4.修改ssh的端口默认是22</p>
+<p>/etc/ssh/sshd_config</p>
+<p>5.重启ssh服务</p>
+<p>命令: /etc/init.d/ssh restart</p>
+<p>参考：<br><a href="http://blog.csdn.net/doniexun/article/details/45268365" title="Ubuntu14.04下配置SSH以支持远程putty登录" target="_blank" rel="external">http://blog.csdn.net/doniexun/article/details/45268365</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.Ubuntu安装SSH&lt;/p&gt;
+&lt;p&gt;命令: # sudo apt-get install openssh-server&lt;/p&gt;
+&lt;p&gt;2.确认sshserver是否安装好&lt;/p&gt;
+&lt;p&gt;命令：ps -e | grep sshd&lt;/p&gt;
+&lt;p&gt;3.启动SSH Serve
+    
+    </summary>
+    
+      <category term="Ubuntu" scheme="http://hxbbing.github.io/categories/Ubuntu/"/>
+    
+    
+      <category term="Ubuntu" scheme="http://hxbbing.github.io/tags/Ubuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>读研压力很大？那么你必须有所突破了</title>
@@ -891,43 +928,6 @@
       &lt;p&gt;参考以下内容：&lt;/p&gt;
 &lt;p&gt;latex自定义bst文件：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/tinkle181129/article/details/49822171&quot; title=&quot;latex自定义bst文件&quot; target=&quot;_
-    
-    </summary>
-    
-      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>latex和matlab学习的一些参考</title>
-    <link href="http://hxbbing.github.io/2017/03/14/%E5%AD%A6%E6%9C%AF-%E4%B8%83/"/>
-    <id>http://hxbbing.github.io/2017/03/14/学术-七/</id>
-    <published>2017-03-14T08:16:58.000Z</published>
-    <updated>2017-03-14T08:28:42.772Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近查了一些内容，觉得蛮有用的，就记下来了，以备不时之需：</p>
-<p>一、matlab使用技巧：</p>
-<p><a href="http://blog.csdn.net/lqhbupt/article/details/20292113" title="matlab使用技巧" target="_blank" rel="external">http://blog.csdn.net/lqhbupt/article/details/20292113</a></p>
-<p>二、 均方误差(MSE)和均方根误差(RMSE)和平均绝对误差(MAE)</p>
-<p><a href="http://blog.csdn.net/reallocing1/article/details/56292877" title=" 均方误差(MSE)和均方根误差(RMSE)和平均绝对误差(MAE)" target="_blank" rel="external">http://blog.csdn.net/reallocing1/article/details/56292877</a></p>
-<p>三、LaTeX文档插入图片的几种常用方法</p>
-<p><a href="http://blog.csdn.net/shenlan211314/article/details/6251776" title="LaTeX文档插入图片的几种常用方法" target="_blank" rel="external">http://blog.csdn.net/shenlan211314/article/details/6251776</a></p>
-<p>四、欧氏距离与马氏距离</p>
-<p><a href="http://blog.csdn.net/u010167269/article/details/51627338?_t_t_t=0.0028043033089488745" title="欧氏距离与马氏距离" target="_blank" rel="external">http://blog.csdn.net/u010167269/article/details/51627338?_t_t_t=0.0028043033089488745</a></p>
-<p><a href="https://cn.mathworks.com/help/stats/mahal.html?s_tid=gn_loc_drop" title="马氏距离" target="_blank" rel="external">https://cn.mathworks.com/help/stats/mahal.html?s_tid=gn_loc_drop</a></p>
-<p>五、机器学习中常见的损失函数</p>
-<p><a href="http://blog.csdn.net/heyongluoyao8/article/details/52462400" title="机器学习中常见的损失函数" target="_blank" rel="external">http://blog.csdn.net/heyongluoyao8/article/details/52462400</a></p>
-<p><a href="http://blog.csdn.net/rosenor1/article/details/52302217" title="机器学习中的损失函数" target="_blank" rel="external">http://blog.csdn.net/rosenor1/article/details/52302217</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近查了一些内容，觉得蛮有用的，就记下来了，以备不时之需：&lt;/p&gt;
-&lt;p&gt;一、matlab使用技巧：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lqhbupt/article/details/20292113&quot; title=&quot;matlab使用
     
     </summary>
     
