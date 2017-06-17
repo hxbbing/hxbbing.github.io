@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-06-11T03:27:05.618Z</updated>
+  <updated>2017-06-17T14:23:58.145Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>怎样做才是合格的研究生</title>
+    <link href="http://hxbbing.github.io/2017/06/17/%E6%80%8E%E6%A0%B7%E5%81%9A%E6%89%8D%E6%98%AF%E5%90%88%E6%A0%BC%E7%9A%84%E7%A0%94%E7%A9%B6%E7%94%9F/"/>
+    <id>http://hxbbing.github.io/2017/06/17/怎样做才是合格的研究生/</id>
+    <published>2017-06-17T13:32:03.000Z</published>
+    <updated>2017-06-17T14:23:58.145Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="-学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>关于论文写作那些事</title>
@@ -876,85 +894,6 @@
     <summary type="html">
     
       &lt;p&gt;题献（dedication）是一个创作传统，是一件脑力作品的创作者表达对他或她的个体生命息息相关的人的感情，这种作品可以是音乐、画作、文学作品、学术著作等，而表达的感情可以是挚爱、谢意、尊敬等。&lt;font color=&quot;red&quot;&gt;题献的直接表现是在作品的主体之前写有长度不等
-    
-    </summary>
-    
-      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在.py文件中调用其他路径下的.py文件中的函数</title>
-    <link href="http://hxbbing.github.io/2017/03/21/%E5%AD%A6%E6%9C%AF-%E4%B9%9D/"/>
-    <id>http://hxbbing.github.io/2017/03/21/学术-九/</id>
-    <published>2017-03-21T01:34:29.000Z</published>
-    <updated>2017-03-21T01:39:25.937Z</updated>
-    
-    <content type="html"><![CDATA[<p>将写好的.py文件作为模块，将其中的函数在其他.py文件或者脚本中使用。</p>
-<ol>
-<li>在D:\python_code\try下创建文件fun.py</li>
-</ol>
-<p>def f1():      print(‘hello world!’)  def f2(L):      result = 0       for i in L:        result += i      return result  def f3(x):      print(“old x = “ + str(x))      x = 0       print(“change to x = “ + str(x))  value=100 </p>
-<p>如果没有在一个路径下要先将存放module的路径添加进来</p>
-<p>from sys import path</p>
-<p>path.append(r’D:\python_code\try’) #将存放module的路径添加进来</p>
-<p>import fun                  #引入模块</p>
-<p>from fun import f1,f2,f3    #引入模块中的函数</p>
-<p>fun.f1()                    #与下一个区别,用这个必须先用import引入模块</p>
-<p>f1()</p>
-<p>print f2([1,2,3,4,5])</p>
-<p>f3(20) </p>
-<p>print fun.value             #打印引入模块的变量值</p>
-<p>2.在同一路径下创建文件cal.py</p>
-<p>import fun                  #引入模块</p>
-<p>from fun import f1,f2,f3    #引入模块中的函数</p>
-<p>fun.f1()                    #与下一个区别,用这个必须先用import引入模块</p>
-<p>f1()                                                #需要时使用from…import…的方式引入才可以用</p>
-<p>print f2([1,2,3,4,5])</p>
-<p>f3(20) </p>
-<p>print fun.value             #打印引入模块的变量值</p>
-<p>3．运行结果：</p>
-<p>hello world!</p>
-<p>hello world!</p>
-<p>15</p>
-<p>old x = 20</p>
-<p>change to x = 0</p>
-<p>100</p>
-<p>4．在Console中调用。python import模块时， 是在sys.path里按顺序查找的。sys.path是一个列表，里面以字符串的形式存储了许多路径。使用fun.py文件中的函数需要先将他的文件路径放到sys.path中，用下面的方式：</p>
-<p>from sys import path</p>
-<p>path.append(r’D:\python_code\try’)</p>
-<p>然后</p>
-<p>import fun</p>
-<p>再调用fun模块下面的函数</p>
-<p>fun.f1()</p>
-<p>可以得到：</p>
-<p>hello world!</p>
-<p>或者</p>
-<p>fun.value</p>
-<p>Out[5]: 100</p>
-<p>如果用</p>
-<p>from fun import f1,f2,f3</p>
-<p>的方式import，则可以直接用</p>
-<p>f1()</p>
-<p>hello world!</p>
-<p>但不能直接value</p>
-<p>value</p>
-<p>Traceback (most recent call last):</p>
-<p>  File “<ipython-input-17-756c412732c9>“, line 1, in <module></module></ipython-input-17-756c412732c9></p>
-<pre><code>value
-</code></pre><p>NameError: name ‘value’ is not defined</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;将写好的.py文件作为模块，将其中的函数在其他.py文件或者脚本中使用。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;在D:\python_code\try下创建文件fun.py&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;def f1():      print(‘hello world!’)  def 
     
     </summary>
     
