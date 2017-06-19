@@ -161,6 +161,12 @@
 
 
 
+  <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1260624720&web_id=1260624720" language="JavaScript"></script>
+  </div>
+
+
+
 
 
 </head>
@@ -388,17 +394,20 @@
       
         
           
-            <p>一、需要的依赖关系未安装</p>
-<p>The required dependency ‘apt (&gt;= 1.0.1ubuntu2.13)’ is not installed. </p>
-<p>解决方法：</p>
-<ol>
-<li>保持软件源指向 14.04(trusty) 不变</li>
-<li>sudo apt-get update &amp;&amp; sudo apt-get upgrade</li>
-</ol>
-<p>二、 virtualbox安装增强功能时【未能加载虚拟光盘】：</p>
-<p>参考<a href="http://blog.csdn.net/binbinxyz/article/details/42785849" target="_blank" rel="external">http://blog.csdn.net/binbinxyz/article/details/42785849</a></p>
+          一、需要的依赖关系未安装
+The required dependency ‘apt (&gt;= 1.0.1ubuntu2.13)’ is not installed. 
+解决方法：
 
-          
+保持软件源指向 14.04(trusty) 不变
+sudo apt-get update &amp;&amp; s
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/02/Ubuntu系列-二/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -530,12 +539,16 @@
       
         
           
-            <p>LaTeX是一款强大的排版系统，尤其在编辑复杂的数学公式时具有其他软件<br>无法比拟的优势。那么，如何在Ubuntu系统下使用LaTeX呢？</p>
-<p>一、打开终端：<br>在终端中输入“sudo apt-get install texlive-full”。按回车后需要输入密码，就是Ubuntu系统账户的密码。这一步需要较长时间，如果不想安装所有文件，可以选择“sudo apt-get install texlive”。</p>
-<p>二、当出现“Do you want to continue? [Y/n]”时，输入字母y，回车即可。<br>之后等待即可。这时我们就安装好了使用LaTeX的基础环境。为了便于编辑，我们需要安装一个编辑器，这里以texmaker为例说明。在终端输入“sudo apt-get install texmaker”。</p>
-<p>三、安装好，在终端输入“texmaker”即可打开texmaker。<br>texmaker打开后其中中间是输入区域，左侧显示的是文件结构，右侧显示的是生成的PDF。<br>至此，Ubuntu上的LaTeX环境搭建完毕，这时我们就可以进行相关的文档编辑了。</p>
-
-          
+          LaTeX是一款强大的排版系统，尤其在编辑复杂的数学公式时具有其他软件无法比拟的优势。那么，如何在Ubuntu系统下使用LaTeX呢？
+一、打开终端：在终端中输入“sudo apt-get install texlive-full”。按回车后需要输入密码，就是Ubuntu系统账户的密码。这一步需要较
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/12/25/Ubuntu系列-一/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -946,15 +959,17 @@
       
         
           
-            <p>下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、</p>
-<p>首先连接到阿里云服务器，操作系统Windows Server 2012 R2</p>
-<p>进入mongodb官网<a href="https://www.mongodb.com/" target="_blank" rel="external">https://www.mongodb.com/</a>，死活下不下来.msi的，可能是服务器的安全级别比较高，网上好像说要下.zip的，但我感觉跟之前的版本不一样，怎么都下不下来。我就想安装ftp，先下到本地，然后传上去，百度了半天ftp还是安装失败，沮丧、、这个时候我就想到能不能下载个qq从外面传进去，尼玛没想到qq也不能用还弄成了保护模式，还要申诉找回密码。</p>
-<p>最后想到硬盘共享，又找到一篇文章<a href="http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i" target="_blank" rel="external">http://zhidao.baidu.com/link?url=hvVKJNOQU5owD1eN7gmMgAt4HK479BGCROt61KTiLk55_JjA07Qb_lqt6O-6lYtEjgfW87hkyxdGH1UT2FmhfpOwsk5jGCoIjG-9n1nH96i</a>于是把mongodb-win32-x86_64-2008plus-ssl-3.2.10-signed.msi下载到d盘，本地资源勾选了d盘，远程连接之后（用户名Administrator 密码是你服务器开机密码），我把它拷贝到了c盘，反正服务器就一个盘。</p>
-<p>接下来就参考了这篇文章：<a href="http://blog.csdn.net/qq_16313365/article/details/52241357" target="_blank" rel="external">http://blog.csdn.net/qq_16313365/article/details/52241357</a> 还有系列（三）一步一步来就可以啦。</p>
-<p>注意：目录有空格加双引号<br>将mongodb的bin目录添加到Path中。</p>
-<p>最后在cmd中输入mongo，显示connecting to: test</p>
-
-          
+          下午在阿里云服务器上安装mongodb，弄了好长时间，踩了好多坑，尼玛、、、
+首先连接到阿里云服务器，操作系统Windows Server 2012 R2
+进入mongodb官网https://www.mongodb.com/，死活下不下来.msi的，可能是服务器的安全级别比较高，网上好像说要下.z
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/10/23/服务器系列一/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1086,9 +1101,16 @@
       
         
           
-            <p>可以先参考知乎专栏 <a href="https://zhuanlan.zhihu.com/p/22281607" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22281607</a> 看看</p>
+          可以先参考知乎专栏 https://zhuanlan.zhihu.com/p/22281607 看看
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/10/21/统计学习方法/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1220,9 +1242,16 @@
       
         
           
-            <p>参考<a href="http://tengj.top/" title="嘟嘟独立博客" target="_blank" rel="external">http://tengj.top/</a>，写得超详细~不错，一步一步来就可以啦。</p>
+          参考http://tengj.top/，写得超详细~不错，一步一步来就可以啦。
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/10/16/hexo使用总结/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1811,6 +1840,26 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
         
       </div>
