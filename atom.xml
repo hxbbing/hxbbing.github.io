@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-06-19T08:35:57.220Z</updated>
+  <updated>2017-06-20T07:29:16.026Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,199 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据科学家必备的工具与语言包</title>
+    <link href="http://hxbbing.github.io/2017/06/20/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%BF%85%E5%A4%87%E7%9A%84%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%AF%AD%E8%A8%80%E5%8C%85/"/>
+    <id>http://hxbbing.github.io/2017/06/20/数据科学家必备的工具与语言包/</id>
+    <published>2017-06-20T06:41:55.000Z</published>
+    <updated>2017-06-20T07:29:16.026Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一位万人敬仰的数据科学家，不但需要培育一棵参天技能树，私人武器库里没有一票玩得转的大火力工具也是没法在江湖中呼风唤雨的。</p>
+<p>近日北卡来罗纳大学CTO，一位数据科学家Jefferson Heard分享了多年来收集沉淀的数据分析工具集：</p>
+<font color="#0099ff" size="4" face="黑体">1.处理较大、较复杂的类excel数据</font>
+
+
+
+<ul>
+<li>Pandas -处理tabular（类似Excel）数据的通用工具套件</li>
+</ul>
+<ul>
+<li>SQLite – Tabular数据库格式，能够处理大规模数据集，同时也能在桌面环境运行</li>
+</ul>
+<ul>
+<li>PostgreSQL – 企业级数据库系统</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">2.处理空间、地理数据</font>
+
+
+<ul>
+<li><p>PostGIS – Postgres的地理空间数据类型扩展</p>
+</li>
+<li><p>Carto – 地理空间数据的商业数据挖掘工具</p>
+</li>
+<li><p>Mapbox – 商业地图绘制工具，同时也是一个web地图系统</p>
+</li>
+<li><p>Leaflet – 基于网络资源和本地数据开发活动web地图的代码库</p>
+</li>
+<li><p>qGIS – 适用于几乎所有地理空间和地图绘制的图形化GIS工具</p>
+</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">3.处理非常规数据</font>
+
+<ul>
+<li><p>RethinkDB – 处理实时数据流非常棒的数据库，正在从商业转开源，小心使用</p>
+</li>
+<li><p>MongoDB – 处理大规模非结构化和半结构化数据的流行数据库，应用于生产环境需要加小心</p>
+</li>
+</ul>
+<ul>
+<li>CouchDB – 与MongoDB有些类似但不尽相同</li>
+</ul>
+<ul>
+<li>Cassandra – 图谱和关系数据库</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">4.为大规模数据集创建性能代码</font>
+
+
+
+<ul>
+<li>Pandas – Python下一个开源数据分析的库,它提供的数据结构DataFrame极大的简化了数据分析过程中一些繁琐操作</li>
+</ul>
+<ul>
+<li>Apache Spark – 一个通用的高性能数据处理系统</li>
+</ul>
+<ul>
+<li>SciPy and Numpy -可编写脚本的基于C的数值算法，能在紧凑的,底层机器数据架构上运行</li>
+</ul>
+<ul>
+<li>Cython – 使用用C编译器的Python编译器，用来提升Python性能</li>
+</ul>
+<ul>
+<li>PyOpenCL – 在图形显卡上进行数值计算和统计处理</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">5.数据清洗工具</font>
+
+
+
+<ul>
+<li>ODO – 在不同数据格式间进行转换的Python库</li>
+</ul>
+<ul>
+<li>OpenRefine – 拥有图形用户界面的数据发现和清洗工具</li>
+</ul>
+<ul>
+<li>Pandas – 数据科学任务中用来处理tabular数据的通用Python工具集</li>
+</ul>
+<ul>
+<li>Scrapy – Python开发的一个快速,高层次的屏幕抓取和web抓取框架，用于抓取web站点并从页面中提取结构化的数据</li>
+</ul>
+<ul>
+<li>BeautifulSoup – 与Scrapy类似但不尽相同</li>
+</ul>
+<ul>
+<li>Scrubadub – 去除个人身份信息</li>
+</ul>
+<ul>
+<li>Arrow – 帮你轻松驾驭日期和时间戳的Python库</li>
+</ul>
+<ul>
+<li>DataCleaner – 剔除脏数据的Python库</li>
+</ul>
+<ul>
+<li>Dora – 与DataCleaner功能类似的Python库</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">6.数据可视化工具</font>
+
+
+
+<ul>
+<li>Processing – 交互式开发交互式可视化内容. 推荐读本：Visualizing Data</li>
+</ul>
+<ul>
+<li>D3 – 在web上开发可视化交互</li>
+</ul>
+<ul>
+<li>C3 – 来自D3的图表</li>
+</ul>
+<ul>
+<li>Bokeh – 与D3类似, 但基于Python</li>
+</ul>
+<ul>
+<li>matplotlib – 最早的Python数据可视化工具集</li>
+</ul>
+<ul>
+<li>Leaflet – 一个为开发移动设备友好的互动地图的开源JavaScript库</li>
+</ul>
+<ul>
+<li>MapBox -详见地图工具集</li>
+</ul>
+<ul>
+<li>qGIS – 详见地图工具集</li>
+</ul>
+<ul>
+<li>VTK – 在医疗、  和物理研究领域常用的重型可视化工具包</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">7.数据挖掘和机器学习工具</font>
+
+
+
+<ul>
+<li>Weka – 一个机器学习和数据挖掘工具包，这里有一本免费可读的参考书</li>
+</ul>
+<ul>
+<li>SciKitLearn – 基于Python的机器学习和数据挖掘工具套件</li>
+</ul>
+<ul>
+<li>Orange – 另一个基于Python的数据挖掘工具套件，同样拥有图形用户界面</li>
+</ul>
+<ul>
+<li>TensorFlow – Google开源的多维度图谱数学建模工具</li>
+</ul>
+<font color="#0099ff" size="4" face="黑体">8.分享、协作以及知识管理工具</font>
+
+
+
+<ul>
+<li>Django -基于Python的web框架</li>
+</ul>
+<ul>
+<li>Django REST Framework – 为Django网站创建 REST APIs</li>
+</ul>
+<ul>
+<li>IRODS – 企业级数据存储和管理，包括元数据管理和基于规则的数据处理</li>
+</ul>
+<ul>
+<li>Cassandra (useful for metadata and relationship storage) – 一个存储和查询元数据经常用到的开源分布式数据管理系统</li>
+</ul>
+<ul>
+<li>GitLab -GitHub的开源替代品，可搭建私人服务器</li>
+</ul>
+<ul>
+<li>ReciPy –</li>
+</ul>
+<ul>
+<li>Prov – Python implementation of the W3C provenance model</li>
+</ul>
+<ul>
+<li>Kanren (部署基于元数据和数据源信息的业务逻辑非常有用) – 一个描述性Python逻辑编程系统，非常适合科学元数据的查询和基于规则的处理</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;作为一位万人敬仰的数据科学家，不但需要培育一棵参天技能树，私人武器库里没有一票玩得转的大火力工具也是没法在江湖中呼风唤雨的。&lt;/p&gt;
+&lt;p&gt;近日北卡来罗纳大学CTO，一位数据科学家Jefferson Heard分享了多年来收集沉淀的数据分析工具集：&lt;/p&gt;
+&lt;font co
+    
+    </summary>
+    
+      <category term="统计学习方法" scheme="http://hxbbing.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+    
+      <category term="统计学习方法" scheme="http://hxbbing.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>怎样做才是合格的研究生</title>
@@ -912,36 +1105,6 @@
     
       &lt;p&gt;读者可能会问，既然各个学科都已经从哲学中分离出来了，那么我们获得的博士学位，为什么仍然是哲学博士（PhD），而不是我们所学的某专业博士？我们所学的并不是哲学专业，甚至可能根本没有上过哲学课，为什么还要拿哲学博士学位？&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;blue&quot;&gt;实际
-    
-    </summary>
-    
-      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
-    
-    
-      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>论文中的&quot;题献&quot;是个什么鬼?教你写出正确的学位论文题献</title>
-    <link href="http://hxbbing.github.io/2017/03/24/%E5%AD%A6%E6%9C%AF-%E5%8D%81/"/>
-    <id>http://hxbbing.github.io/2017/03/24/学术-十/</id>
-    <published>2017-03-24T08:42:40.000Z</published>
-    <updated>2017-03-24T08:55:12.530Z</updated>
-    
-    <content type="html"><![CDATA[<p>题献（dedication）是一个创作传统，是一件脑力作品的创作者表达对他或她的个体生命息息相关的人的感情，这种作品可以是音乐、画作、文学作品、学术著作等，而表达的感情可以是挚爱、谢意、尊敬等。<font color="red">题献的直接表现是在作品的主体之前写有长度不等的献辞，最简洁的也最流行的是一句“献给XXX”。</font></p>
-<p>学位论文有后记，作者在后记里表现自己的学术和生活情操，对在学术和生活上帮助他的人表示感谢，在学术论文大量产出的今天，大部分的论文后记都有一种程式化的倾向。而题献则是奉献的、专属的，甚至是诗意的。</p>
-<p>题献的献辞一般放在摘要和目录之前，读者打开论文最先看到的就是献辞，这意味着读者在了解这部作品的内容之前就知道了题献，所以这是一件严肃的事。由于作者把作品献给了一个人，那么这部作品就有两个人的属性，一位是作者，另一位是受题献者。</p>
-<p>受题献者不仅是被作者致谢，也不仅只是获赠了一份作品的实体副本，而是在名义上“拥有”这部作品，当然受题献者不对这部作品本身的内容负责。对于受题献者而言，这有可能是这一生中收到了最为独特也最为珍贵的礼物，对于作者而言，这也有可能是赠送出的最珍贵的礼物，如果受题献者明白这份情谊的意味，作者真正用心完成这份作品并真心表达这份情感。学位论文往往是大学生或研究生有生以来消耗最长时间和最多精力的个人创作，那么用自己的用心之作表达对自己生命中十分重要的人的感情是一件发自肺腑、油然而生的事了，不过有一些通行做法可供参考：</p>
-<font color="red">第一，题献是专属的，对象只能是一个人。</font>如果是多人，那么他们之间至少有紧密关系（如一家人），而不能毫不相关。比如当代作家菲利普·迪克把他的小说《高堡奇人》题献给了他的妻子和儿子。<br><br><font color="red">第二，应征得对方的同意。</font>作品的基本立场、倾向和观点可以与受题献者不同，但不能互相冲突，以至可能造成冒犯。比如在18世纪普鲁士的许多学者把他们的作品题献给国王，而其中就有人因观点不合官方口径被逮捕。<br><br><font color="red">第三，如果献给逝者，应该写明标注生卒年。</font>比如马克思把《资本论》题献给了他已经去世的朋友威廉·沃尔弗。<br><br><font color="red">第四，题献给与自己的个人生活有紧密关系的人。</font>这是出于生命的意涵，一般不是单纯的学术或学业的关系，虽然学术和学业也是生命的一部分。单纯的学术上的感激在后记已经完成了。比如马克思把博士论文献给了他的岳父冯·威斯特华伦，而年轻时候的马克思与威斯特华伦经常探讨思想、阅读诗歌。献辞的第一段是“我敬爱的父亲般的朋友，请您原谅我把我所爱慕的您的名字放在一本微不足道的小册子的开头。我已完全没有耐心再等待另一个机会来向您略表我的一点敬爱之意了。”<br><br><font color="red">第五，一般不题献给与自己没有私人交往的名人，如果确实考虑献给名人，同样这个名人对自己的人生有独特而重大的意义。</font>对于学位论文来说，为避免与可能影响学术独立性的因素，更不应该考虑献给名人。有可能会有人想起贝多芬把他的交响曲献给拿破仑，但这样的时代已经过去了。<br><br><font color="red">第六，用于答辩场景交给答辩委员会的论文不宜写上献辞。</font>
-
-<p><font color="red">第七，宁缺毋滥。</font>题献应该是作者迫切想要去做的事，而非按规定做的事。毕竟从来就没有什么规定要求写题献，题献之所以出现，本来就是人表达内心情感的自然流露。如果心中没有一个特别要表达内心感情的人，那么宁可不要题献，在后记中致谢足矣。</p>
-<p><font color="red">第八是一个题外话，但也最为致命。</font>如果决定要题献的话，一定要写好自己的论文，要保证原创性、开创性和独创性。如果论文质量不过关，那么就不要题献。一部作品只能由自己精心完成，才能作为一个独特、隆重而独具意义的礼物，不仅让作者，也让得到题献的人，感受这份真挚的情感。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;题献（dedication）是一个创作传统，是一件脑力作品的创作者表达对他或她的个体生命息息相关的人的感情，这种作品可以是音乐、画作、文学作品、学术著作等，而表达的感情可以是挚爱、谢意、尊敬等。&lt;font color=&quot;red&quot;&gt;题献的直接表现是在作品的主体之前写有长度不等
     
     </summary>
     
