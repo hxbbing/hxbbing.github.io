@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-07-04T03:36:20.154Z</updated>
+  <updated>2017-07-13T12:37:20.317Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python conda学习</title>
+    <link href="http://hxbbing.github.io/2017/07/13/python-conda%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://hxbbing.github.io/2017/07/13/python-conda学习/</id>
+    <published>2017-07-13T12:29:56.000Z</published>
+    <updated>2017-07-13T12:37:20.317Z</updated>
+    
+    <content type="html"><![CDATA[<p>anaconda查看、安装、更新库</p>
+<p><a href="http://blog.csdn.net/flyfrommath/article/details/68069344" title="anaconda查看、安装、更新库" target="_blank" rel="external">http://blog.csdn.net/flyfrommath/article/details/68069344</a></p>
+<p>Google机器学习一 Anaconda 安装scikit-learn</p>
+<p><a href="http://blog.csdn.net/tz_zs/article/details/73459800" title="Google机器学习一 Anaconda 安装scikit-learn" target="_blank" rel="external">http://blog.csdn.net/tz_zs/article/details/73459800</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;anaconda查看、安装、更新库&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/flyfrommath/article/details/68069344&quot; title=&quot;anaconda查看、安装、更新库&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+      <category term="Python" scheme="http://hxbbing.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://hxbbing.github.io/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>研究生阅读和管理文献经验</title>
@@ -1181,33 +1208,6 @@ from matplotlib.ticker import FuncFormatter
     
     
       <category term="markdown" scheme="http://hxbbing.github.io/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装linux之后的一些配置</title>
-    <link href="http://hxbbing.github.io/2017/04/09/%E5%AD%A6%E6%9C%AF-%E5%8D%81%E4%BA%94/"/>
-    <id>http://hxbbing.github.io/2017/04/09/学术-十五/</id>
-    <published>2017-04-09T06:57:00.000Z</published>
-    <updated>2017-04-14T02:59:40.476Z</updated>
-    
-    <content type="html"><![CDATA[<p>十招让Ubuntu 16.04用起来更得心应手：<br><a href="http://www.linuxidc.com/Linux/2016-06/132238.htm" title="十招让Ubuntu 16.04用起来更得心应手" target="_blank" rel="external">http://www.linuxidc.com/Linux/2016-06/132238.htm</a></p>
-<p>ubuntu16.04上配置mentohust：<br><a href="http://blog.csdn.net/baidu_24256693/article/details/56008962" title="ubuntu16.04上配置mentohust" target="_blank" rel="external">http://blog.csdn.net/baidu_24256693/article/details/56008962</a></p>
-<p><a href="http://blog.csdn.net/linygood/article/details/8817324" title="Linux下锐捷的配置" target="_blank" rel="external">http://blog.csdn.net/linygood/article/details/8817324</a></p>
-<p>如何修改Win7系统启动菜单的等待时间：<br><a href="https://jingyan.baidu.com/article/37bce2be75aaa91002f3a2c4.html" title="如何修改Win7系统启动菜单的等待时间" target="_blank" rel="external">https://jingyan.baidu.com/article/37bce2be75aaa91002f3a2c4.html</a></p>
-<p><a href="https://jingyan.baidu.com/article/63acb44ae4062c61fcc17e27.html" title="win7与ubuntu14.04双系统下修改默认启动项" target="_blank" rel="external">https://jingyan.baidu.com/article/63acb44ae4062c61fcc17e27.html</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;十招让Ubuntu 16.04用起来更得心应手：&lt;br&gt;&lt;a href=&quot;http://www.linuxidc.com/Linux/2016-06/132238.htm&quot; title=&quot;十招让Ubuntu 16.04用起来更得心应手&quot; target=&quot;_blank&quot; re
-    
-    </summary>
-    
-      <category term="linux" scheme="http://hxbbing.github.io/categories/linux/"/>
-    
-    
-      <category term="linux" scheme="http://hxbbing.github.io/tags/linux/"/>
     
   </entry>
   
