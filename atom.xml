@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxbbing.github.io/"/>
-  <updated>2017-07-13T12:37:20.317Z</updated>
+  <updated>2017-07-23T08:53:12.172Z</updated>
   <id>http://hxbbing.github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BIBTex制作参考文献</title>
+    <link href="http://hxbbing.github.io/2017/07/23/BIBTex%E5%88%B6%E4%BD%9C%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE/"/>
+    <id>http://hxbbing.github.io/2017/07/23/BIBTex制作参考文献/</id>
+    <published>2017-07-23T08:46:40.000Z</published>
+    <updated>2017-07-23T08:53:12.172Z</updated>
+    
+    <content type="html"><![CDATA[<p>用latex写论文时，引用参考文献总是碰到各种各样的问题，我觉得这篇文章写得挺好，就拿过来分享给大家了。</p>
+<p><a href="http://www.cnblogs.com/longdouhzt/archive/2012/06/21/2557965.html" title="BIBTex制作参考文献" target="_blank" rel="external">http://www.cnblogs.com/longdouhzt/archive/2012/06/21/2557965.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用latex写论文时，引用参考文献总是碰到各种各样的问题，我觉得这篇文章写得挺好，就拿过来分享给大家了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/longdouhzt/archive/2012/06/21/2557965.html&quot; t
+    
+    </summary>
+    
+      <category term="学术" scheme="http://hxbbing.github.io/categories/%E5%AD%A6%E6%9C%AF/"/>
+    
+    
+      <category term="学术" scheme="http://hxbbing.github.io/tags/%E5%AD%A6%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>python conda学习</title>
@@ -1184,30 +1209,6 @@ from matplotlib.ticker import FuncFormatter
     
     
       <category term="机器学习" scheme="http://hxbbing.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown学习笔记</title>
-    <link href="http://hxbbing.github.io/2017/04/10/markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://hxbbing.github.io/2017/04/10/markdown学习笔记/</id>
-    <published>2017-04-10T07:44:36.000Z</published>
-    <updated>2017-04-10T07:49:53.297Z</updated>
-    
-    <content type="html"><![CDATA[<p>如何使用Sublime Text 3作为Markdown编辑器：<br><a href="https://zhidao.baidu.com/question/1756309856392757948.html" title="如何使用Sublime Text 3作为Markdown编辑器" target="_blank" rel="external">https://zhidao.baidu.com/question/1756309856392757948.html</a></p>
-<p>使用 Markdown + MathJax 在博客里插入数学公式：<br><a href="http://blog.csdn.net/kamidox/article/details/48380239" title="使用 Markdown + MathJax 在博客里插入数学公式" target="_blank" rel="external">http://blog.csdn.net/kamidox/article/details/48380239</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如何使用Sublime Text 3作为Markdown编辑器：&lt;br&gt;&lt;a href=&quot;https://zhidao.baidu.com/question/1756309856392757948.html&quot; title=&quot;如何使用Sublime Text 3作为Markd
-    
-    </summary>
-    
-      <category term="markdown" scheme="http://hxbbing.github.io/categories/markdown/"/>
-    
-    
-      <category term="markdown" scheme="http://hxbbing.github.io/tags/markdown/"/>
     
   </entry>
   
